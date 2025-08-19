@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\1.0 AntiCrack">
+      <UniqueIdentifier>{8e826272-5977-4621-a3ba-54c106ce27b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\1.1 Message">
+      <UniqueIdentifier>{20602307-1e43-41da-87cc-1b85e4a7b348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\1.2 CRC">
+      <UniqueIdentifier>{243639a2-60f7-46c7-907c-53d9d4dda32d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\1.3 MemScript">
+      <UniqueIdentifier>{f5ea9f14-2ce8-4bce-a4de-aae2b5169189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\1.4 Protection">
+      <UniqueIdentifier>{b779b2b8-545c-49fa-8108-beed108dd464}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\1.5 RESTAPI">
+      <UniqueIdentifier>{94070a5c-8d67-40f2-81a3-27ac364dd86b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="maininfo.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AntiCrack.h">
+      <Filter>Source Files\1.0 AntiCrack</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Source Files\1.1 Message</Filter>
+    </ClInclude>
+    <ClInclude Include="CCRC32.H">
+      <Filter>Source Files\1.2 CRC</Filter>
+    </ClInclude>
+    <ClInclude Include="MemScript.h">
+      <Filter>Source Files\1.3 MemScript</Filter>
+    </ClInclude>
+    <ClInclude Include="Protection.h">
+      <Filter>Source Files\1.4 Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="RESTfulAPI.h">
+      <Filter>Source Files\1.5 RESTAPI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GetClientInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiCrack.cpp">
+      <Filter>Source Files\1.0 AntiCrack</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>Source Files\1.1 Message</Filter>
+    </ClCompile>
+    <ClCompile Include="CCRC32.Cpp">
+      <Filter>Source Files\1.2 CRC</Filter>
+    </ClCompile>
+    <ClCompile Include="MemScript.cpp">
+      <Filter>Source Files\1.3 MemScript</Filter>
+    </ClCompile>
+    <ClCompile Include="Protection.cpp">
+      <Filter>Source Files\1.4 Protection</Filter>
+    </ClCompile>
+    <ClCompile Include="RESTfulAPI.cpp">
+      <Filter>Source Files\1.5 RESTAPI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GetMainInfo.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

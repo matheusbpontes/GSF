@@ -1,0 +1,9 @@
+Rastrear Cuentas por IP:
+USE MuOnline
+SELECT memb___id FROM MEMB_STAT WHERE ip like '127.0.0.1'
+
+============================
+
+Averiguar IP de una cuenta:
+USE MuOnline
+SELECT IP FROM MEMB_STAT WHERE memb___id='cuenta'

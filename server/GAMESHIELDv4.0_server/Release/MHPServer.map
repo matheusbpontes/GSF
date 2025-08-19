@@ -1,0 +1,1298 @@
+ MHPServer
+
+ Timestamp is 638a2b23 (Fri Dec 02 13:43:15 2022)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000f342H .text                   CODE
+ 0001:0000f350 000006adH .text$x                 CODE
+ 0001:0000fa00 0000024cH .text$yc                CODE
+ 0001:0000fc50 000003d9H .text$yd                CODE
+ 0002:00000000 00000448H .idata$5                DATA
+ 0002:00000448 00000004H .CRT$XCA                DATA
+ 0002:0000044c 00000004H .CRT$XCAA               DATA
+ 0002:00000450 00000014H .CRT$XCL                DATA
+ 0002:00000464 00000034H .CRT$XCU                DATA
+ 0002:00000498 00000004H .CRT$XCZ                DATA
+ 0002:0000049c 00000004H .CRT$XIA                DATA
+ 0002:000004a0 00000004H .CRT$XIAA               DATA
+ 0002:000004a4 00000004H .CRT$XIC                DATA
+ 0002:000004a8 00000004H .CRT$XIY                DATA
+ 0002:000004ac 00000004H .CRT$XIZ                DATA
+ 0002:000004b0 000016c8H .rdata                  DATA
+ 0002:00001b78 00000094H .rdata$debug            DATA
+ 0002:00001c0c 000006d0H .rdata$r                DATA
+ 0002:000022e0 0000008cH .rdata$sxdata           DATA
+ 0002:0000236c 00000004H .rtc$IAA                DATA
+ 0002:00002370 00000004H .rtc$IZZ                DATA
+ 0002:00002374 00000004H .rtc$TAA                DATA
+ 0002:00002378 00000004H .rtc$TZZ                DATA
+ 0002:00002380 00000ab8H .xdata$x                DATA
+ 0002:00002e38 00000000H ATL$__a                 DATA
+ 0002:00002e38 00000000H ATL$__z                 DATA
+ 0002:00002e38 000000f0H .idata$2                DATA
+ 0002:00002f28 00000014H .idata$3                DATA
+ 0002:00002f3c 00000448H .idata$4                DATA
+ 0002:00003384 000011a0H .idata$6                DATA
+ 0002:00004524 00000000H .edata                  DATA
+ 0003:00000000 000049a0H .data                   DATA
+ 0003:000049a0 00193b04H .bss                    DATA
+ 0004:00000000 000003b8H .rsrc$01                DATA
+ 0004:000003c0 00019028H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000023       ___safe_se_handler_count   00000023     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00000000       ___ImageBase               00400000     <linker-defined>
+ 0001:00000000       ??_ECAuthenticate@@UAEPAXI@Z 00401000 f i  CIL library: CIL module
+ 0001:00000000       ??_GCAuthenticate@@UAEPAXI@Z 00401000 f i Authenticate.obj
+ 0001:00000050       ??_GCBlackList@@UAEPAXI@Z  00401050 f i BlackList.obj
+ 0001:00000050       ??_ECBlackList@@UAEPAXI@Z  00401050 f i  CIL library: CIL module
+ 0001:000000b0       ?SetList@CBlackList@@QAEXPAD@Z 004010b0 f   BlackList.obj
+ 0001:00000270       ?CheckIpAddress@CBlackList@@QAE_NPAD@Z 00401270 f   BlackList.obj
+ 0001:00000300       ?CheckHardwareId@CBlackList@@QAE_NPAD@Z 00401300 f   BlackList.obj
+ 0001:00000390       ?push_back@?$vector@UBLACKLIST_IPADDR_INFO@@V?$allocator@UBLACKLIST_IPADDR_INFO@@@std@@@std@@QAEXABUBLACKLIST_IPADDR_INFO@@@Z 00401390 f i BlackList.obj
+ 0001:00000430       ?clear@?$vector@UBLACKLIST_IPADDR_INFO@@V?$allocator@UBLACKLIST_IPADDR_INFO@@@std@@@std@@QAEXXZ 00401430 f i BlackList.obj
+ 0001:00000470       ?push_back@?$vector@UBLACKLIST_HARDID_INFO@@V?$allocator@UBLACKLIST_HARDID_INFO@@@std@@@std@@QAEXABUBLACKLIST_HARDID_INFO@@@Z 00401470 f i BlackList.obj
+ 0001:000004d0       ?_Reserve@?$vector@UBLACKLIST_IPADDR_INFO@@V?$allocator@UBLACKLIST_IPADDR_INFO@@@std@@@std@@IAEXI@Z 004014d0 f i BlackList.obj
+ 0001:00000540       ?_Reserve@?$vector@UBLACKLIST_HARDID_INFO@@V?$allocator@UBLACKLIST_HARDID_INFO@@@std@@@std@@IAEXI@Z 00401540 f i BlackList.obj
+ 0001:000005b0       ?reserve@?$vector@UBLACKLIST_IPADDR_INFO@@V?$allocator@UBLACKLIST_IPADDR_INFO@@@std@@@std@@QAEXI@Z 004015b0 f i BlackList.obj
+ 0001:000006a0       ?reserve@?$vector@UBLACKLIST_HARDID_INFO@@V?$allocator@UBLACKLIST_HARDID_INFO@@@std@@@std@@QAEXI@Z 004016a0 f i BlackList.obj
+ 0001:00000790       ?allocate@?$allocator@UBLACKLIST_IPADDR_INFO@@@std@@QAEPAUBLACKLIST_IPADDR_INFO@@I@Z 00401790 f i BlackList.obj
+ 0001:000007f0       ?allocate@?$allocator@UBLACKLIST_HARDID_INFO@@@std@@QAEPAUBLACKLIST_HARDID_INFO@@I@Z 004017f0 f i BlackList.obj
+ 0001:00000850       ??$_Uninit_move@PAUBLACKLIST_IPADDR_INFO@@PAU1@V?$allocator@UBLACKLIST_IPADDR_INFO@@@std@@U1@@std@@YAPAUBLACKLIST_IPADDR_INFO@@PAU1@00AAV?$allocator@UBLACKLIST_IPADDR_INFO@@@0@0U_Nonscalar_ptr_iterator_tag@0@@Z 00401850 f i BlackList.obj
+ 0001:00000880       ??$_Uninit_move@PAUBLACKLIST_HARDID_INFO@@PAU1@V?$allocator@UBLACKLIST_HARDID_INFO@@@std@@U1@@std@@YAPAUBLACKLIST_HARDID_INFO@@PAU1@00AAV?$allocator@UBLACKLIST_HARDID_INFO@@@0@0U_Nonscalar_ptr_iterator_tag@0@@Z 00401880 f i BlackList.obj
+ 0001:000008b0       ??3@YAXPAX0@Z              004018b0 f i BlackList.obj
+ 0001:000008c0       ??1bad_alloc@std@@UAE@XZ   004018c0 f i BlackList.obj
+ 0001:000008d0       ??0bad_alloc@std@@QAE@ABV01@@Z 004018d0 f i BlackList.obj
+ 0001:000008f0       ??_Gbad_alloc@std@@UAEPAXI@Z 004018f0 f i BlackList.obj
+ 0001:000008f0       ??_Ebad_alloc@std@@UAEPAXI@Z 004018f0 f i  CIL library: CIL module
+ 0001:00000920       ?Initialize@CCRC32@@QAEXXZ 00401920 f   CCRC32.obj
+ 0001:00000a60       ?FileCRC@CCRC32@@QAE_NPBDPAKK@Z 00401a60 f   CCRC32.obj
+ 0001:00000b50       ??0CClientManager@@QAE@XZ  00401b50 f   ClientManager.obj
+ 0001:00000b80       ??_ECClientManager@@UAEPAXI@Z 00401b80 f i  CIL library: CIL module
+ 0001:00000b80       ??_GCClientManager@@UAEPAXI@Z 00401b80 f i ClientManager.obj
+ 0001:00000bb0       ??1CClientManager@@UAE@XZ  00401bb0 f   ClientManager.obj
+ 0001:00000bc0       ?CheckState@CClientManager@@QAE_NXZ 00401bc0 f   ClientManager.obj
+ 0001:00000bf0       ?AddClient@CClientManager@@QAEXHPADI@Z 00401bf0 f   ClientManager.obj
+ 0001:00000d40       ?DelClient@CClientManager@@QAEXXZ 00401d40 f   ClientManager.obj
+ 0001:00000dd0       ?SetClientInfo@CClientManager@@QAEXPAD@Z 00401dd0 f   ClientManager.obj
+ 0001:00000e10       ??_GCCriticalSection@@UAEPAXI@Z 00401e10 f i CriticalSection.obj
+ 0001:00000e10       ??_ECCriticalSection@@UAEPAXI@Z 00401e10 f i  CIL library: CIL module
+ 0001:00000e40       ??1CCriticalSection@@UAE@XZ 00401e40 f   CriticalSection.obj
+ 0001:00000e60       ?httpGet@@YAHPADH0@Z       00401e60 f   FileDownloadHTTP.obj
+ 0001:000010a0       ?recvLine@@YAHHPADH@Z      004020a0 f   FileDownloadHTTP.obj
+ 0001:000010f0       ??$sprintf_s@$0PPPP@@@YAHAAY0PPPP@DPBDZZ 004020f0 f i FileDownloadHTTP.obj
+ 0001:00001110       ?breakUrl@@YAXPBDPAUURLPARTS_T@@@Z 00402110 f   FileDownloadURL.obj
+ 0001:00001270       _WinMain@16                00402270 f   HackServer.obj
+ 0001:000014a0       ?MyRegisterClass@@YAGPAUHINSTANCE__@@@Z 004024a0 f   HackServer.obj
+ 0001:00001520       ?WndProc@@YGJPAUHWND__@@IIJ@Z 00402520 f   HackServer.obj
+ 0001:000017a0       ?About@@YGJPAUHWND__@@IIJ@Z 004027a0 f   HackServer.obj
+ 0001:000017e0       ?CheckListBox@@YA_NPAUHWND__@@HPAD@Z 004027e0 f   HackServer.obj
+ 0001:000018d0       ?PlayersList@@YGJPAUHWND__@@IIJ@Z 004028d0 f   HackServer.obj
+ 0001:00002010       ?Banned@@YGJPAUHWND__@@IIJ@Z 00403010 f   HackServer.obj
+ 0001:00002100       ?Screen@@YGJPAUHWND__@@IIJ@Z 00403100 f   HackServer.obj
+ 0001:000022e0       ?SetListViewColumns@@YAHPAUHWND__@@HHPAPADPAH@Z 004032e0 f   HackServer.obj
+ 0001:00002360       ?CreateListView@@YAPAUHWND__@@PAU1@I@Z 00403360 f   HackServer.obj
+ 0001:00002400       ?ProcessList@@YGJPAUHWND__@@IIJ@Z 00403400 f   HackServer.obj
+ 0001:00002540       ?HackServerProtocolCore@@YAXHEPAEH@Z 00403540 f   HackServerProtocol.obj
+ 0001:00002600       ?CHClientInfoRecv@@YAXPAUSDHP_CLIENT_INFO_RECV@@H@Z 00403600 f   HackServerProtocol.obj
+ 0001:00002b00       ?CHConnectionStatusRecv@@YAXPAUSDHP_CONNECTION_STATUS_RECV@@H@Z 00403b00 f   HackServerProtocol.obj
+ 0001:00002b60       ?CHClientDisconnectRecv@@YAXPAUSDHP_CLIENT_DISCONNECT_RECV@@H@Z 00403b60 f   HackServerProtocol.obj
+ 0001:00002fc0       ?HCDumpListSend@@YAXH@Z    00403fc0 f   HackServerProtocol.obj
+ 0001:00003180       ?HCChecksumListSend@@YAXH@Z 00404180 f   HackServerProtocol.obj
+ 0001:00003330       ?HCInternalListSend@@YAXH@Z 00404330 f   HackServerProtocol.obj
+ 0001:000034d0       ?HCWindowListSend@@YAXH@Z  004044d0 f   HackServerProtocol.obj
+ 0001:00003670       ?HCClientDisconnectSend@@YAXHH@Z 00404670 f   HackServerProtocol.obj
+ 0001:000036c0       ??0CHidManager@@QAE@XZ     004046c0 f   HidManager.obj
+ 0001:00003790       ??_ECHidManager@@UAEPAXI@Z 00404790 f i  CIL library: CIL module
+ 0001:00003790       ??_GCHidManager@@UAEPAXI@Z 00404790 f i HidManager.obj
+ 0001:00003830       ?CheckHardwareId@CHidManager@@QAE_NQAD@Z 00404830 f   HidManager.obj
+ 0001:000038b0       ?CheckHardwareId2@CHidManager@@QAE_NQAD@Z 004048b0 f   HidManager.obj
+ 0001:00003970       ?InsertHardwareId@CHidManager@@QAEXQAD@Z 00404970 f   HidManager.obj
+ 0001:00003a40       ?InsertHardwareId2@CHidManager@@QAEXQAD@Z 00404a40 f   HidManager.obj
+ 0001:00003bf0       ?ClearHardwareId@CHidManager@@QAEXXZ 00404bf0 f   HidManager.obj
+ 0001:00003c60       ?ClearHardwareId2@CHidManager@@QAEXQAD@Z 00404c60 f   HidManager.obj
+ 0001:00003d40       ?DeleteAllHardwareId@CHidManager@@QAEXXZ 00404d40 f   HidManager.obj
+ 0001:00003dc0       ??1?$vector@UHARDWARE_ID_INFO@@V?$allocator@UHARDWARE_ID_INFO@@@std@@@std@@QAE@XZ 00404dc0 f i HidManager.obj
+ 0001:00003df0       ?_Reserve@?$vector@UHARDWARE_ID_INFO@@V?$allocator@UHARDWARE_ID_INFO@@@std@@@std@@IAEXI@Z 00404df0 f i HidManager.obj
+ 0001:00003e60       ?_Rrotate@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@2@@Z 00404e60 f i IpManager.obj
+ 0001:00003e60       ?_Rrotate@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@2@@Z 00404e60 f i HidManager.obj
+ 0001:00003ec0       ?_Max@?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@std@@SAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@2@PAU342@@Z 00404ec0 f i HidManager.obj
+ 0001:00003ec0       ?_Max@?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@std@@SAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@2@PAU342@@Z 00404ec0 f i IpManager.obj
+ 0001:00003ee0       ??E?$_Tree_const_iterator@V?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@std@@@std@@QAEAAV01@XZ 00404ee0 f i IpManager.obj
+ 0001:00003ee0       ??E?$_Tree_const_iterator@V?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@std@@@std@@QAEAAV01@XZ 00404ee0 f i HidManager.obj
+ 0001:00003f30       ?reserve@?$vector@UHARDWARE_ID_INFO@@V?$allocator@UHARDWARE_ID_INFO@@@std@@@std@@QAEXI@Z 00404f30 f i HidManager.obj
+ 0001:00004020       ?erase@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@std@@@2@V?$_Tree_const_iterator@V?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@std@@@2@0@Z 00405020 f i IpManager.obj
+ 0001:00004020       ?erase@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@std@@@2@V?$_Tree_const_iterator@V?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@std@@@2@0@Z 00405020 f i HidManager.obj
+ 0001:000040e0       ?_Lbound@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@2@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z 004050e0 f i IpManager.obj
+ 0001:000040e0       ?_Lbound@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@std@@IAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@2@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z 004050e0 f i HidManager.obj
+ 0001:000041e0       ?allocate@?$allocator@UHARDWARE_ID_INFO@@@std@@QAEPAUHARDWARE_ID_INFO@@I@Z 004051e0 f i HidManager.obj
+ 0001:00004240       ?_Linsert@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@std@@QAE?AU?$pair@V?$_Tree_iterator@V?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@std@@@std@@_N@2@PAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@2@_N@Z 00405240 f i HidManager.obj
+ 0001:00004240       ?_Linsert@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@std@@QAE?AU?$pair@V?$_Tree_iterator@V?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@std@@@std@@_N@2@PAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@2@_N@Z 00405240 f i IpManager.obj
+ 0001:000043e0       ?_Insert@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@std@@IAE?AV?$_Tree_iterator@V?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@std@@@2@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@2@1@Z 004053e0 f i IpManager.obj
+ 0001:000043e0       ?_Insert@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@std@@IAE?AV?$_Tree_iterator@V?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@std@@@2@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@2@1@Z 004053e0 f i HidManager.obj
+ 0001:00004610       ??F?$_Tree_unchecked_const_iterator@V?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@std@@U_Iterator_base0@2@@std@@QAEAAV01@XZ 00405610 f i HidManager.obj
+ 0001:00004610       ??F?$_Tree_unchecked_const_iterator@V?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@std@@U_Iterator_base0@2@@std@@QAEAAV01@XZ 00405610 f i IpManager.obj
+ 0001:00004670       ??$_Uninit_move@PAUHARDWARE_ID_INFO@@PAU1@V?$allocator@UHARDWARE_ID_INFO@@@std@@U1@@std@@YAPAUHARDWARE_ID_INFO@@PAU1@00AAV?$allocator@UHARDWARE_ID_INFO@@@0@0U_Nonscalar_ptr_iterator_tag@0@@Z 00405670 f i HidManager.obj
+ 0001:000046a0       ?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@$$QAV12@@Z 004056a0 f i HidManager.obj
+ 0001:00004710       ?compare@?$char_traits@D@std@@SAHPBD0I@Z 00405710 f i HidManager.obj
+ 0001:00004790       ?erase@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@II@Z 00405790 f i HidManager.obj
+ 0001:00004810       ?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z 00405810 f i HidManager.obj
+ 0001:000048b0       ?allocate@?$allocator@E@std@@QAEPAEI@Z 004058b0 f i ScreenShot.obj
+ 0001:000048b0       ?allocate@?$allocator@D@std@@QAEPADI@Z 004058b0 f i HidManager.obj
+ 0001:00004900       ?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXII@Z 00405900 f i HidManager.obj
+ 0001:00004a70       ?_Grow@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE_NI_N@Z 00405a70 f i HidManager.obj
+ 0001:00004ac0       ?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z 00405ac0 f i HidManager.obj
+ 0001:00004b90       ??_ECIpManager@@UAEPAXI@Z  00405b90 f i  CIL library: CIL module
+ 0001:00004b90       ??_GCIpManager@@UAEPAXI@Z  00405b90 f i IpManager.obj
+ 0001:00004c10       ?CheckIpAddress@CIpManager@@QAE_NPADH@Z 00405c10 f   IpManager.obj
+ 0001:00004dc0       ?InsertIpAddress@CIpManager@@QAEXPAD@Z 00405dc0 f   IpManager.obj
+ 0001:00004f90       ??1?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@QAE@XZ 00405f90 f i HidManager.obj
+ 0001:00004f90       ??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 00405f90 f i HidManager.obj
+ 0001:00004f90       ??1?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@QAE@XZ 00405f90 f i IpManager.obj
+ 0001:00004fc0       ?RemoveIpAddress@CIpManager@@QAEXPAD@Z 00405fc0 f   IpManager.obj
+ 0001:000050a0       ?erase@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@std@@@2@V?$_Tree_const_iterator@V?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@std@@@2@@Z 004060a0 f i IpManager.obj
+ 0001:000050a0       ?erase@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@std@@@2@V?$_Tree_const_iterator@V?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@std@@@2@@Z 004060a0 f i HidManager.obj
+ 0001:00005330       ?find@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@std@@@2@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z 00406330 f i HidManager.obj
+ 0001:00005330       ?find@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@std@@@2@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z 00406330 f i IpManager.obj
+ 0001:000053c0       ?_Lrotate@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@2@@Z 004063c0 f i HidManager.obj
+ 0001:000053c0       ?_Lrotate@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@2@@Z 004063c0 f i IpManager.obj
+ 0001:00005420       ?_Erase@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@2@@Z 00406420 f i IpManager.obj
+ 0001:00005420       ?_Erase@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@2@@Z 00406420 f i HidManager.obj
+ 0001:00005490       ??$_Buynode@U?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@std@@QAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@1@$$QAU?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@1@@Z 00406490 f i HidManager.obj
+ 0001:00005490       ??$_Buynode@U?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@std@@QAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@1@$$QAU?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@1@@Z 00406490 f i IpManager.obj
+ 0001:00005570       ??_GCLog@@UAEPAXI@Z        00406570 f i Log.obj
+ 0001:00005570       ??_ECLog@@UAEPAXI@Z        00406570 f i  CIL library: CIL module
+ 0001:000055a0       ??1CLog@@UAE@XZ            004065a0 f   Log.obj
+ 0001:000055f0       ?AddLog@CLog@@QAEXHPAD@Z   004065f0 f   Log.obj
+ 0001:00005710       ?Output@CLog@@QAAXW4eLogType@@PADZZ 00406710 f   Log.obj
+ 0001:00005920       ??_GCMemScript@@UAEPAXI@Z  00406920 f i MemScript.obj
+ 0001:00005920       ??_ECMemScript@@UAEPAXI@Z  00406920 f i  CIL library: CIL module
+ 0001:00005960       ?SetBuffer@CMemScript@@QAE_NPADH@Z 00406960 f   MemScript.obj
+ 0001:00005a80       ?GetToken@CMemScript@@QAEHXZ 00406a80 f   MemScript.obj
+ 0001:00005d90       ??$sprintf_s@$0BAE@@@YAHAAY0BAE@DPBDZZ 00406d90 f i MemScript.obj
+ 0001:00005db0       ?SendProcessRequest@CProcessListInfo@@QAEXH@Z 00406db0 f   ProcessListInfo.obj
+ 0001:00005e10       ?RecvProcessList@CProcessListInfo@@QAEXPAUPMSG_PROCESS_INFO_DATA_SEND@@H@Z 00406e10 f   ProcessListInfo.obj
+ 0001:000060d0       ??$sprintf_s@$0EAA@@@YAHAAY0EAA@DPBDZZ 004070d0 f i ProcessListInfo.obj
+ 0001:000060f0       ??0CProcessManager@@QAE@XZ 004070f0 f   ProcessManager.obj
+ 0001:000061d0       ??_ECProcessManager@@UAEPAXI@Z 004071d0 f i  CIL library: CIL module
+ 0001:000061d0       ??_GCProcessManager@@UAEPAXI@Z 004071d0 f i ProcessManager.obj
+ 0001:00006270       ?CheckProcess@CProcessManager@@QAE_NXZ 00407270 f   ProcessManager.obj
+ 0001:00006450       ?CheckProcessModule@CProcessManager@@QAE_NPAXPAD@Z 00407450 f   ProcessManager.obj
+ 0001:00006530       ?StartProcessModule@CProcessManager@@QAE_NPAXPADH@Z 00407530 f   ProcessManager.obj
+ 0001:00006680       ?ClearProcessCache@CProcessManager@@QAEXXZ 00407680 f   ProcessManager.obj
+ 0001:00006720       ?GetProcessCache@CProcessManager@@QAE_NPAUPROCESS_CACHE_INFO@@K@Z 00407720 f   ProcessManager.obj
+ 0001:000067a0       ?InsertProcessCacheInfo@CProcessManager@@QAEXUPROCESS_CACHE_INFO@@@Z 004077a0 f   ProcessManager.obj
+ 0001:00006850       ?erase@?$_Tree@V?$_Tmap_traits@KUPROCESS_CACHE_INFO@@U?$less@K@std@@V?$allocator@U?$pair@$$CBKUPROCESS_CACHE_INFO@@@std@@@3@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@V?$_Tmap_traits@KUPROCESS_CACHE_INFO@@U?$less@K@std@@V?$allocator@U?$pair@$$CBKUPROCESS_CACHE_INFO@@@std@@@3@$0A@@std@@@std@@@2@V?$_Tree_const_iterator@V?$_Tree_val@V?$_Tmap_traits@KUPROCESS_CACHE_INFO@@U?$less@K@std@@V?$allocator@U?$pair@$$CBKUPROCESS_CACHE_INFO@@@std@@@3@$0A@@std@@@std@@@2@@Z 00407850 f i ProcessManager.obj
+ 0001:00006ab0       ?_Lrotate@?$_Tree@V?$_Tmap_traits@KUPROCESS_CACHE_INFO@@U?$less@K@std@@V?$allocator@U?$pair@$$CBKUPROCESS_CACHE_INFO@@@std@@@3@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KUPROCESS_CACHE_INFO@@U?$less@K@std@@V?$allocator@U?$pair@$$CBKUPROCESS_CACHE_INFO@@@std@@@3@$0A@@std@@@2@@Z 00407ab0 f i ProcessManager.obj
+ 0001:00006b10       ?_Rrotate@?$_Tree@V?$_Tmap_traits@KUPROCESS_CACHE_INFO@@U?$less@K@std@@V?$allocator@U?$pair@$$CBKUPROCESS_CACHE_INFO@@@std@@@3@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KUPROCESS_CACHE_INFO@@U?$less@K@std@@V?$allocator@U?$pair@$$CBKUPROCESS_CACHE_INFO@@@std@@@3@$0A@@std@@@2@@Z 00407b10 f i ProcessManager.obj
+ 0001:00006b70       ??1?$_Tree_val@V?$_Tmap_traits@KUPROCESS_CACHE_INFO@@U?$less@K@std@@V?$allocator@U?$pair@$$CBKUPROCESS_CACHE_INFO@@@std@@@3@$0A@@std@@@std@@QAE@XZ 00407b70 f i ProcessManager.obj
+ 0001:00006b70       ??1?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@std@@QAE@XZ 00407b70 f i IpManager.obj
+ 0001:00006b70       ??1?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@std@@QAE@XZ 00407b70 f i HidManager.obj
+ 0001:00006b80       ?_Max@?$_Tree_val@V?$_Tmap_traits@KUPROCESS_CACHE_INFO@@U?$less@K@std@@V?$allocator@U?$pair@$$CBKUPROCESS_CACHE_INFO@@@std@@@3@$0A@@std@@@std@@SAPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KUPROCESS_CACHE_INFO@@U?$less@K@std@@V?$allocator@U?$pair@$$CBKUPROCESS_CACHE_INFO@@@std@@@3@$0A@@std@@@2@PAU342@@Z 00407b80 f i ProcessManager.obj
+ 0001:00006ba0       ??E?$_Tree_const_iterator@V?$_Tree_val@V?$_Tmap_traits@KUPROCESS_CACHE_INFO@@U?$less@K@std@@V?$allocator@U?$pair@$$CBKUPROCESS_CACHE_INFO@@@std@@@3@$0A@@std@@@std@@@std@@QAEAAV01@XZ 00407ba0 f i ProcessManager.obj
+ 0001:00006bf0       ?erase@?$_Tree@V?$_Tmap_traits@KUPROCESS_CACHE_INFO@@U?$less@K@std@@V?$allocator@U?$pair@$$CBKUPROCESS_CACHE_INFO@@@std@@@3@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@V?$_Tmap_traits@KUPROCESS_CACHE_INFO@@U?$less@K@std@@V?$allocator@U?$pair@$$CBKUPROCESS_CACHE_INFO@@@std@@@3@$0A@@std@@@std@@@2@V?$_Tree_const_iterator@V?$_Tree_val@V?$_Tmap_traits@KUPROCESS_CACHE_INFO@@U?$less@K@std@@V?$allocator@U?$pair@$$CBKUPROCESS_CACHE_INFO@@@std@@@3@$0A@@std@@@std@@@2@0@Z 00407bf0 f i ProcessManager.obj
+ 0001:00006c90       ?clear@?$_Tree@V?$_Tmap_traits@KUPROCESS_CACHE_INFO@@U?$less@K@std@@V?$allocator@U?$pair@$$CBKUPROCESS_CACHE_INFO@@@std@@@3@$0A@@std@@@std@@QAEXXZ 00407c90 f i ProcessManager.obj
+ 0001:00006ce0       ?_Erase@?$_Tree@V?$_Tmap_traits@KUPROCESS_CACHE_INFO@@U?$less@K@std@@V?$allocator@U?$pair@$$CBKUPROCESS_CACHE_INFO@@@std@@@3@$0A@@std@@@std@@IAEXPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KUPROCESS_CACHE_INFO@@U?$less@K@std@@V?$allocator@U?$pair@$$CBKUPROCESS_CACHE_INFO@@@std@@@3@$0A@@std@@@2@@Z 00407ce0 f i ProcessManager.obj
+ 0001:00006d20       ?_Linsert@?$_Tree@V?$_Tmap_traits@KUPROCESS_CACHE_INFO@@U?$less@K@std@@V?$allocator@U?$pair@$$CBKUPROCESS_CACHE_INFO@@@std@@@3@$0A@@std@@@std@@QAE?AU?$pair@V?$_Tree_iterator@V?$_Tree_val@V?$_Tmap_traits@KUPROCESS_CACHE_INFO@@U?$less@K@std@@V?$allocator@U?$pair@$$CBKUPROCESS_CACHE_INFO@@@std@@@3@$0A@@std@@@std@@@std@@_N@2@PAU_Node@?$_Tree_nod@V?$_Tmap_traits@KUPROCESS_CACHE_INFO@@U?$less@K@std@@V?$allocator@U?$pair@$$CBKUPROCESS_CACHE_INFO@@@std@@@3@$0A@@std@@@2@_N@Z 00407d20 f i ProcessManager.obj
+ 0001:00006df0       ?_Insert@?$_Tree@V?$_Tmap_traits@KUPROCESS_CACHE_INFO@@U?$less@K@std@@V?$allocator@U?$pair@$$CBKUPROCESS_CACHE_INFO@@@std@@@3@$0A@@std@@@std@@IAE?AV?$_Tree_iterator@V?$_Tree_val@V?$_Tmap_traits@KUPROCESS_CACHE_INFO@@U?$less@K@std@@V?$allocator@U?$pair@$$CBKUPROCESS_CACHE_INFO@@@std@@@3@$0A@@std@@@std@@@2@_NPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KUPROCESS_CACHE_INFO@@U?$less@K@std@@V?$allocator@U?$pair@$$CBKUPROCESS_CACHE_INFO@@@std@@@3@$0A@@std@@@2@1@Z 00407df0 f i ProcessManager.obj
+ 0001:00007010       ??F?$_Tree_unchecked_const_iterator@V?$_Tree_val@V?$_Tmap_traits@KUPROCESS_CACHE_INFO@@U?$less@K@std@@V?$allocator@U?$pair@$$CBKUPROCESS_CACHE_INFO@@@std@@@3@$0A@@std@@@std@@U_Iterator_base0@2@@std@@QAEAAV01@XZ 00408010 f i ProcessManager.obj
+ 0001:00007070       ??$_Buynode@U?$pair@KUPROCESS_CACHE_INFO@@@std@@@?$_Tree_val@V?$_Tmap_traits@KUPROCESS_CACHE_INFO@@U?$less@K@std@@V?$allocator@U?$pair@$$CBKUPROCESS_CACHE_INFO@@@std@@@3@$0A@@std@@@std@@QAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@KUPROCESS_CACHE_INFO@@U?$less@K@std@@V?$allocator@U?$pair@$$CBKUPROCESS_CACHE_INFO@@@std@@@3@$0A@@std@@@1@$$QAU?$pair@KUPROCESS_CACHE_INFO@@@1@@Z 00408070 f i ProcessManager.obj
+ 0001:000070e0       ??_GCQueue@@UAEPAXI@Z      004080e0 f i Queue.obj
+ 0001:000070e0       ??_ECQueue@@UAEPAXI@Z      004080e0 f i  CIL library: CIL module
+ 0001:00007170       ??1?$queue@UQUEUE_INFO@@V?$deque@UQUEUE_INFO@@V?$allocator@UQUEUE_INFO@@@std@@@std@@@std@@QAE@XZ 00408170 f i Queue.obj
+ 0001:00007190       ??1CQueue@@UAE@XZ          00408190 f   Queue.obj
+ 0001:00007210       ?ClearQueue@CQueue@@QAEXXZ 00408210 f   Queue.obj
+ 0001:00007320       ?_Tidy@?$deque@UQUEUE_INFO@@V?$allocator@UQUEUE_INFO@@@std@@@std@@IAEXXZ 00408320 f i Queue.obj
+ 0001:00007390       ?begin@?$deque@UQUEUE_INFO@@V?$allocator@UQUEUE_INFO@@@std@@@std@@QAE?AV?$_Deque_iterator@UQUEUE_INFO@@V?$allocator@UQUEUE_INFO@@@std@@@2@XZ 00408390 f i Queue.obj
+ 0001:000073b0       ?_Growmap@?$deque@UQUEUE_INFO@@V?$allocator@UQUEUE_INFO@@@std@@@std@@IAEXI@Z 004083b0 f i Queue.obj
+ 0001:00007540       ??_GCReadFiles@@UAEPAXI@Z  00408540 f i ReadFiles.obj
+ 0001:00007540       ??_ECReadFiles@@UAEPAXI@Z  00408540 f i  CIL library: CIL module
+ 0001:00007570       ??1CReadFiles@@UAE@XZ      00408570 f   ReadFiles.obj
+ 0001:000075e0       ?DumpList@CReadFiles@@QAEXPAD@Z 004085e0 f   ReadFiles.obj
+ 0001:00007890       ?ChecksumList@CReadFiles@@QAEXPAD@Z 00408890 f   ReadFiles.obj
+ 0001:00007a00       ?InternalList@CReadFiles@@QAEXPAD@Z 00408a00 f   ReadFiles.obj
+ 0001:00007c20       ?WindowList@CReadFiles@@QAEXPAD@Z 00408c20 f   ReadFiles.obj
+ 0001:00007d70       ?UpdateInternalList@CReadFiles@@QAEXXZ 00408d70 f   ReadFiles.obj
+ 0001:00008030       ?push_back@?$vector@UCSUM_LIST_INFO@@V?$allocator@UCSUM_LIST_INFO@@@std@@@std@@QAEXABUCSUM_LIST_INFO@@@Z 00409030 f i ReadFiles.obj
+ 0001:00008090       ?clear@?$vector@UCSUM_LIST_INFO@@V?$allocator@UCSUM_LIST_INFO@@@std@@@std@@QAEXXZ 00409090 f i ReadFiles.obj
+ 0001:000080e0       ?clear@?$vector@UITRN_LIST_INFO@@V?$allocator@UITRN_LIST_INFO@@@std@@@std@@QAEXXZ 004090e0 f i ReadFiles.obj
+ 0001:00008130       ?push_back@?$vector@UWNDW_LIST_INFO@@V?$allocator@UWNDW_LIST_INFO@@@std@@@std@@QAEXABUWNDW_LIST_INFO@@@Z 00409130 f i ReadFiles.obj
+ 0001:00008190       ?clear@?$vector@UWNDW_LIST_INFO@@V?$allocator@UWNDW_LIST_INFO@@@std@@@std@@QAEXXZ 00409190 f i ReadFiles.obj
+ 0001:000081e0       ?_Reserve@?$vector@UDUMP_LIST_INFO@@V?$allocator@UDUMP_LIST_INFO@@@std@@@std@@IAEXI@Z 004091e0 f i ReadFiles.obj
+ 0001:00008250       ?_Reserve@?$vector@UCSUM_LIST_INFO@@V?$allocator@UCSUM_LIST_INFO@@@std@@@std@@IAEXI@Z 00409250 f i ReadFiles.obj
+ 0001:000082c0       ?_Reserve@?$vector@UITRN_LIST_INFO@@V?$allocator@UITRN_LIST_INFO@@@std@@@std@@IAEXI@Z 004092c0 f i ReadFiles.obj
+ 0001:00008330       ?_Reserve@?$vector@UWNDW_LIST_INFO@@V?$allocator@UWNDW_LIST_INFO@@@std@@@std@@IAEXI@Z 00409330 f i ReadFiles.obj
+ 0001:000083a0       ?reserve@?$vector@UDUMP_LIST_INFO@@V?$allocator@UDUMP_LIST_INFO@@@std@@@std@@QAEXI@Z 004093a0 f i ReadFiles.obj
+ 0001:00008490       ?reserve@?$vector@UCSUM_LIST_INFO@@V?$allocator@UCSUM_LIST_INFO@@@std@@@std@@QAEXI@Z 00409490 f i ReadFiles.obj
+ 0001:00008580       ?reserve@?$vector@UITRN_LIST_INFO@@V?$allocator@UITRN_LIST_INFO@@@std@@@std@@QAEXI@Z 00409580 f i ReadFiles.obj
+ 0001:00008670       ?reserve@?$vector@UWNDW_LIST_INFO@@V?$allocator@UWNDW_LIST_INFO@@@std@@@std@@QAEXI@Z 00409670 f i ReadFiles.obj
+ 0001:00008760       ?allocate@?$allocator@UDUMP_LIST_INFO@@@std@@QAEPAUDUMP_LIST_INFO@@I@Z 00409760 f i ReadFiles.obj
+ 0001:000087c0       ?allocate@?$allocator@UCSUM_LIST_INFO@@@std@@QAEPAUCSUM_LIST_INFO@@I@Z 004097c0 f i ReadFiles.obj
+ 0001:00008820       ?allocate@?$allocator@UITRN_LIST_INFO@@@std@@QAEPAUITRN_LIST_INFO@@I@Z 00409820 f i ReadFiles.obj
+ 0001:00008880       ?allocate@?$allocator@UWNDW_LIST_INFO@@@std@@QAEPAUWNDW_LIST_INFO@@I@Z 00409880 f i ReadFiles.obj
+ 0001:000088e0       ??$_Uninit_move@PAUDUMP_LIST_INFO@@PAU1@V?$allocator@UDUMP_LIST_INFO@@@std@@U1@@std@@YAPAUDUMP_LIST_INFO@@PAU1@00AAV?$allocator@UDUMP_LIST_INFO@@@0@0U_Nonscalar_ptr_iterator_tag@0@@Z 004098e0 f i ReadFiles.obj
+ 0001:00008910       ??$_Uninit_move@PAUCSUM_LIST_INFO@@PAU1@V?$allocator@UCSUM_LIST_INFO@@@std@@U1@@std@@YAPAUCSUM_LIST_INFO@@PAU1@00AAV?$allocator@UCSUM_LIST_INFO@@@0@0U_Nonscalar_ptr_iterator_tag@0@@Z 00409910 f i ReadFiles.obj
+ 0001:00008940       ??$_Uninit_move@PAUITRN_LIST_INFO@@PAU1@V?$allocator@UITRN_LIST_INFO@@@std@@U1@@std@@YAPAUITRN_LIST_INFO@@PAU1@00AAV?$allocator@UITRN_LIST_INFO@@@0@0U_Nonscalar_ptr_iterator_tag@0@@Z 00409940 f i ReadFiles.obj
+ 0001:00008970       ??$_Uninit_move@PAUWNDW_LIST_INFO@@PAU1@V?$allocator@UWNDW_LIST_INFO@@@std@@U1@@std@@YAPAUWNDW_LIST_INFO@@PAU1@00AAV?$allocator@UWNDW_LIST_INFO@@@0@0U_Nonscalar_ptr_iterator_tag@0@@Z 00409970 f i ReadFiles.obj
+ 0001:000089a0       ?RecvInfo@CScreenShot@@QAEXPAUPMSG_CLIENT_SCREEN_SHOT_SEND@@H@Z 004099a0 f   ScreenShot.obj
+ 0001:00008bc0       ?RecvInfo@CScreenShot@@QAEXPAUPMSG_SERVER_SCREEN_SHOT_RECV@@H@Z 00409bc0 f   ScreenShot.obj
+ 0001:00008de0       ?SaveScreen@CScreenShot@@QAEXPAD0H@Z 00409de0 f   ScreenShot.obj
+ 0001:000091e0       ?SendScreenShotRequest@CScreenShot@@QAEXH@Z 0040a1e0 f   ScreenShot.obj
+ 0001:00009240       ??4?$vector@EV?$allocator@E@std@@@std@@QAEAAV01@ABV01@@Z 0040a240 f i ScreenShot.obj
+ 0001:00009340       ?_Buy@?$vector@EV?$allocator@E@std@@@std@@IAE_NI@Z 0040a340 f i ScreenShot.obj
+ 0001:00009380       ?reserve@?$vector@EV?$allocator@E@std@@@std@@QAEXI@Z 0040a380 f i ScreenShot.obj
+ 0001:000093f0       ??$AtlConvAllocMemory@_W@ATL@@YAXPAPA_WHPA_WH@Z 0040a3f0 f i ScreenShot.obj
+ 0001:00009480       ?AtlThrowLastWin32@ATL@@YGXXZ 0040a480 f i ScreenShot.obj
+ 0001:000094a0       ?Init@?$CA2WEX@$0IA@@ATL@@AAEXPBDI@Z 0040a4a0 f i ScreenShot.obj
+ 0001:00009560       ??1?$CA2WEX@$0IA@@ATL@@QAE@XZ 0040a560 f i ScreenShot.obj
+ 0001:00009580       ?AtlFindStringResourceInstance@ATL@@YAPAUHINSTANCE__@@IG@Z 0040a580 f i ScreenShot.obj
+ 0001:00009650       ?_AtlGetStringResourceImage@ATL@@YAPBUATLSTRINGRESOURCEIMAGE@1@PAUHINSTANCE__@@PAUHRSRC__@@I@Z 0040a650 f i ScreenShot.obj
+ 0001:000096b0       ?ConvertToBaseType@?$ChTraitsCRT@_W@ATL@@SAXPA_WHPB_WH@Z 0040a6b0 f i ScreenShot.obj
+ 0001:00009780       ?LoadStringA@?$CStringT@_WV?$StrTraitATL@_WV?$ChTraitsCRT@_W@ATL@@@ATL@@@ATL@@QAEHPAUHINSTANCE__@@I@Z 0040a780 f i ScreenShot.obj
+ 0001:00009820       ?Empty@?$CSimpleStringT@_W$0A@@ATL@@QAEXXZ 0040a820 f i ScreenShot.obj
+ 0001:00009880       ?Fork@?$CSimpleStringT@_W$0A@@ATL@@AAEXH@Z 0040a880 f i ScreenShot.obj
+ 0001:00009910       ?Reallocate@?$CSimpleStringT@_W$0A@@ATL@@AAEXH@Z 0040a910 f i ScreenShot.obj
+ 0001:00009940       ?PrepareWrite2@?$CSimpleStringT@_W$0A@@ATL@@AAEXH@Z 0040a940 f i ScreenShot.obj
+ 0001:000099a0       ?SetString@?$CSimpleStringT@_W$0A@@ATL@@QAEXPB_WH@Z 0040a9a0 f i ScreenShot.obj
+ 0001:00009a50       ?CloneData@?$CSimpleStringT@_W$0A@@ATL@@CAPAUCStringData@2@PAU32@@Z 0040aa50 f i ScreenShot.obj
+ 0001:00009ac0       ?ThrowMemoryException@?$CSimpleStringT@_W$0A@@ATL@@KAXXZ 0040aac0 f i ScreenShot.obj
+ 0001:00009ad0       ??0?$CStringT@_WV?$StrTraitATL@_WV?$ChTraitsCRT@_W@ATL@@@ATL@@@ATL@@QAE@PB_WHPAUIAtlStringMgr@1@@Z 0040aad0 f i ScreenShot.obj
+ 0001:00009b30       ?Mid@?$CStringT@_WV?$StrTraitATL@_WV?$ChTraitsCRT@_W@ATL@@@ATL@@@ATL@@QBE?AV12@HH@Z 0040ab30 f i ScreenShot.obj
+ 0001:00009be0       ?Tokenize@?$CStringT@_WV?$StrTraitATL@_WV?$ChTraitsCRT@_W@ATL@@@ATL@@@ATL@@QBE?AV12@PB_WAAH@Z 0040abe0 f i ScreenShot.obj
+ 0001:00009cb0       ??1?$CStringT@_WV?$StrTraitATL@_WV?$ChTraitsCRT@_W@ATL@@@ATL@@@ATL@@QAE@XZ 0040acb0 f i ScreenShot.obj
+ 0001:00009cb0       ??1?$CSimpleStringT@_W$0A@@ATL@@QAE@XZ 0040acb0 f i ScreenShot.obj
+ 0001:00009cd0       ?FindCodecForExtension@CImage@ATL@@CA?AU_GUID@@PBDPBVImageCodecInfo@Gdiplus@@I@Z 0040acd0 f i ScreenShot.obj
+ 0001:0000a030       ?FindCodecForFileType@CImage@ATL@@CA?AU_GUID@@ABU3@PBVImageCodecInfo@Gdiplus@@I@Z 0040b030 f i ScreenShot.obj
+ 0001:0000a110       _IsEqualGUID               0040b110 f i ScreenShot.obj
+ 0001:0000a180       ?Save@CImage@ATL@@QBEJPBDABU_GUID@@@Z 0040b180 f i ScreenShot.obj
+ 0001:0000a410       ?DrawString@Graphics@Gdiplus@@QAE?AW4Status@2@PB_WHPBVFont@2@ABVPointF@2@PBVBrush@2@@Z 0040b410 f i ScreenShot.obj
+ 0001:0000a470       ??_ESolidBrush@Gdiplus@@UAEPAXI@Z 0040b470 f i  CIL library: CIL module
+ 0001:0000a470       ??_GSolidBrush@Gdiplus@@UAEPAXI@Z 0040b470 f i ScreenShot.obj
+ 0001:0000a470       ??_GBrush@Gdiplus@@UAEPAXI@Z 0040b470 f i ScreenShot.obj
+ 0001:0000a470       ??_EBrush@Gdiplus@@UAEPAXI@Z 0040b470 f i  CIL library: CIL module
+ 0001:0000a4a0       ?Clone@Brush@Gdiplus@@UBEPAV12@XZ 0040b4a0 f i ScreenShot.obj
+ 0001:0000a500       ??0SolidBrush@Gdiplus@@QAE@ABVColor@1@@Z 0040b500 f i ScreenShot.obj
+ 0001:0000a540       ??0Font@Gdiplus@@QAE@PBVFontFamily@1@MHW4Unit@1@@Z 0040b540 f i ScreenShot.obj
+ 0001:0000a580       ?swprintf@@YAHPA_WPB_WZZ   0040b580 f i ScreenShot.obj
+ 0001:0000a5a0       ?Init@CInitGDIPlus@CImage@ATL@@QAE_NXZ 0040b5a0 f i ScreenShot.obj
+ 0001:0000a620       ?UpdateBitmapInfo@CImage@ATL@@AAEXW4DIBOrientation@12@@Z 0040b620 f i ScreenShot.obj
+ 0001:0000a700       ?CreateEx@CImage@ATL@@QAEHHHHKPBKK@Z 0040b700 f i ScreenShot.obj
+ 0001:0000a820       ??1?$CAtlSafeAllocBufferManager@VCCRTAllocator@ATL@@@_ATL_SAFE_ALLOCA_IMPL@ATL@@QAE@XZ 0040b820 f i ScreenShot.obj
+ 0001:0000a850       ?_AtlVerifyStackAvailable@_ATL_SAFE_ALLOCA_IMPL@ATL@@YA_NK@Z 0040b850 f i ScreenShot.obj
+ 0001:0000a910       ??$AtlAdd@K@ATL@@YAJPAKKK@Z 0040b910 f i ScreenShot.obj
+ 0001:0000a940       ?Allocate@?$CAtlSafeAllocBufferManager@VCCRTAllocator@ATL@@@_ATL_SAFE_ALLOCA_IMPL@ATL@@QAEPAXK@Z 0040b940 f i ScreenShot.obj
+ 0001:0000a970       ?GetDC@CImage@ATL@@QBEPAUHDC__@@XZ 0040b970 f i ScreenShot.obj
+ 0001:0000a9c0       ?ReleaseDC@CImage@ATL@@QBEXXZ 0040b9c0 f i ScreenShot.obj
+ 0001:0000aa10       ?AtlThrowImpl@ATL@@YGXJ@Z  0040ba10 f i ScreenShot.obj
+ 0001:0000aa30       ??_GImage@Gdiplus@@UAEPAXI@Z 0040ba30 f i ScreenShot.obj
+ 0001:0000aa30       ??_EBitmap@Gdiplus@@UAEPAXI@Z 0040ba30 f i  CIL library: CIL module
+ 0001:0000aa30       ??_EImage@Gdiplus@@UAEPAXI@Z 0040ba30 f i  CIL library: CIL module
+ 0001:0000aa30       ??_GBitmap@Gdiplus@@UAEPAXI@Z 0040ba30 f i ScreenShot.obj
+ 0001:0000aa60       ??0Bitmap@Gdiplus@@QAE@HHHHPAE@Z 0040ba60 f i ScreenShot.obj
+ 0001:0000aaa0       ?Clone@Image@Gdiplus@@UAEPAV12@XZ 0040baa0 f i ScreenShot.obj
+ 0001:0000aaf0       ?CreateFromGdiplusBitmap@CImage@ATL@@AAEJAAVBitmap@Gdiplus@@@Z 0040baf0 f i ScreenShot.obj
+ 0001:0000af80       ?Load@CImage@ATL@@QAEJPAUIStream@@@Z 0040bf80 f i ScreenShot.obj
+ 0001:0000aff0       ?Destroy@CImage@ATL@@QAEXXZ 0040bff0 f i ScreenShot.obj
+ 0001:0000b030       ?ReleaseGDIPlus@CInitGDIPlus@CImage@ATL@@QAEXXZ 0040c030 f i ScreenShot.obj
+ 0001:0000b060       ??1CImage@ATL@@UAE@XZ      0040c060 f i ScreenShot.obj
+ 0001:0000b0f0       ??_ECImage@ATL@@UAEPAXI@Z  0040c0f0 f i  CIL library: CIL module
+ 0001:0000b0f0       ??_GCImage@ATL@@UAEPAXI@Z  0040c0f0 f i ScreenShot.obj
+ 0001:0000b120       ??0CImage@ATL@@QAE@XZ      0040c120 f i ScreenShot.obj
+ 0001:0000b170       ??0CScreenShow@@QAE@XZ     0040c170 f   ScreenShow.obj
+ 0001:0000b260       ??_ECScreenShow@@UAEPAXI@Z 0040c260 f i  CIL library: CIL module
+ 0001:0000b260       ??_GCScreenShow@@UAEPAXI@Z 0040c260 f i ScreenShow.obj
+ 0001:0000b2c0       ?RecvInfo@CScreenShow@@QAEXPAUPMSG_SCREEN_RECV@@H@Z 0040c2c0 f   ScreenShow.obj
+ 0001:0000b570       ?DrawScreen@CScreenShow@@SAXPAUHWND__@@PAUHDC__@@@Z 0040c570 f   ScreenShow.obj
+ 0001:0000b830       ?SendScreenState@CScreenShow@@QAEXHH@Z 0040c830 f   ScreenShow.obj
+ 0001:0000b8a0       ?RecvScreenData@CScreenShow@@QAEXPAUPMSG_SCREENDATA_RECV@@H@Z 0040c8a0 f   ScreenShow.obj
+ 0001:0000b970       ?StretchBlt@CImage@ATL@@QBEHPAUHDC__@@HHHHK@Z 0040c970 f i ScreenShow.obj
+ 0001:0000b9e0       ?Draw@CImage@ATL@@QBEHPAUHDC__@@HHHHHHHH@Z 0040c9e0 f i ScreenShow.obj
+ 0001:0000bae0       ?Load@CImage@ATL@@QAEJPBD@Z 0040cae0 f i ScreenShow.obj
+ 0001:0000bbe0       ??0CServerDisplayer@@QAE@XZ 0040cbe0 f   ServerDisplayer.obj
+ 0001:0000bc90       ??_GCServerDisplayer@@UAEPAXI@Z 0040cc90 f i ServerDisplayer.obj
+ 0001:0000bc90       ??_ECServerDisplayer@@UAEPAXI@Z 0040cc90 f i  CIL library: CIL module
+ 0001:0000bce0       ?Init@CServerDisplayer@@QAEXPAUHWND__@@@Z 0040cce0 f   ServerDisplayer.obj
+ 0001:0000bd70       ?Run@CServerDisplayer@@QAEXXZ 0040cd70 f   ServerDisplayer.obj
+ 0001:0000be30       ?PaintAllInfo@CServerDisplayer@@QAEXXZ 0040ce30 f   ServerDisplayer.obj
+ 0001:0000bfa0       ?LogTextPaint@CServerDisplayer@@QAEXXZ 0040cfa0 f   ServerDisplayer.obj
+ 0001:0000c130       ?LogAddText@CServerDisplayer@@QAEXW4eLogColor@@PADH@Z 0040d130 f   ServerDisplayer.obj
+ 0001:0000c1c0       ?PaintName@CServerDisplayer@@QAEXXZ 0040d1c0 f   ServerDisplayer.obj
+ 0001:0000c280       ??_ECServerInfo@@UAEPAXI@Z 0040d280 f i  CIL library: CIL module
+ 0001:0000c280       ??_GCServerInfo@@UAEPAXI@Z 0040d280 f i ServerInfo.obj
+ 0001:0000c2b0       ?ReadInit@CServerInfo@@QAEXXZ 0040d2b0 f   ServerInfo.obj
+ 0001:0000c370       ?ReadConfig@CServerInfo@@QAEXXZ 0040d370 f   ServerInfo.obj
+ 0001:0000c410       ?ReadDumpList@CServerInfo@@QAEXXZ 0040d410 f   ServerInfo.obj
+ 0001:0000c430       ?ReadWindowList@CServerInfo@@QAEXXZ 0040d430 f   ServerInfo.obj
+ 0001:0000c450       ?ReadBlackList@CServerInfo@@QAEXXZ 0040d450 f   ServerInfo.obj
+ 0001:0000c470       ?ReadStartupInfo@CServerInfo@@QAEXPAD0@Z 0040d470 f   ServerInfo.obj
+ 0001:0000c5b0       ?ReadConfig@CServerInfo@@QAEXPAD0@Z 0040d5b0 f   ServerInfo.obj
+ 0001:0000c9b0       ??0CSocketManager@@QAE@XZ  0040d9b0 f   SocketManager.obj
+ 0001:0000cb20       ??_GCSocketManager@@UAEPAXI@Z 0040db20 f i SocketManager.obj
+ 0001:0000cb20       ??_ECSocketManager@@UAEPAXI@Z 0040db20 f i  CIL library: CIL module
+ 0001:0000cb50       ??1CSocketManager@@UAE@XZ  0040db50 f   SocketManager.obj
+ 0001:0000cc00       ?Start@CSocketManager@@QAE_NG@Z 0040dc00 f   SocketManager.obj
+ 0001:0000cc60       ?Clean@CSocketManager@@QAEXXZ 0040dc60 f   SocketManager.obj
+ 0001:0000cd20       ?CreateListenSocket@CSocketManager@@QAE_NXZ 0040dd20 f   SocketManager.obj
+ 0001:0000ce20       ?CreateCompletionPort@CSocketManager@@QAE_NXZ 0040de20 f   SocketManager.obj
+ 0001:0000ce90       ?CreateAcceptThread@CSocketManager@@QAE_NXZ 0040de90 f   SocketManager.obj
+ 0001:0000cf00       ?CreateWorkerThread@CSocketManager@@QAE_NXZ 0040df00 f   SocketManager.obj
+ 0001:0000cfb0       ?CreateServerQueue@CSocketManager@@QAE_NXZ 0040dfb0 f   SocketManager.obj
+ 0001:0000d050       ?DataRecv@CSocketManager@@QAE_NHPAUIO_MAIN_BUFFER@@@Z 0040e050 f   SocketManager.obj
+ 0001:0000d2e0       ?DataSend@CSocketManager@@QAE_NHPAEH@Z 0040e2e0 f   SocketManager.obj
+ 0001:0000d560       ?Disconnect@CSocketManager@@QAEXH@Z 0040e560 f   SocketManager.obj
+ 0001:0000d610       ?OnRecv@CSocketManager@@QAEXHKPAUIO_RECV_CONTEXT@@@Z 0040e610 f   SocketManager.obj
+ 0001:0000d730       ?OnSend@CSocketManager@@QAEXHKPAUIO_SEND_CONTEXT@@@Z 0040e730 f   SocketManager.obj
+ 0001:0000d900       ?ServerAcceptCondition@CSocketManager@@SGHPAU_WSABUF@@0PAU_QualityOfService@@100PAIPAV1@@Z 0040e900 f   SocketManager.obj
+ 0001:0000d930       ?ServerAcceptThread@CSocketManager@@SGKPAV1@@Z 0040e930 f   SocketManager.obj
+ 0001:0000dc20       ?ServerWorkerThread@CSocketManager@@SGKPAV1@@Z 0040ec20 f   SocketManager.obj
+ 0001:0000dd10       ?ServerQueueThread@CSocketManager@@SGKPAV1@@Z 0040ed10 f   SocketManager.obj
+ 0001:0000de60       ?ErrorMessageBox@@YAXPADZZ 0040ee60 f   Util.obj
+ 0001:0000dee0       ?LogAdd@@YAXW4eLogColor@@PADZZ 0040eee0 f   Util.obj
+ 0001:0000dfa0       ?TimeoutProc@@YAXXZ        0040efa0 f   Util.obj
+ 0001:0000e000       ?GetUserCount@@YAHXZ       0040f000 f   Util.obj
+ 0001:0000e100       ?GetIpByIndex@@YAPADH@Z    0040f100 f   Util.obj
+ 0001:0000e160       ?GetHwidByIndex@@YAPADH@Z  0040f160 f   Util.obj
+ 0001:0000e1c0       ?GetIndexByIpAndHwid@@YAHPAD0@Z 0040f1c0 f   Util.obj
+ 0001:0000e290       ?GetSelecterListBoxItem@@YA_NPAUHWND__@@HPAD@Z 0040f290 f   Util.obj
+ 0001:0000e320       ?GetFreeClientIndex@@YAHXZ 0040f320 f   Util.obj
+ 0001:0000e3b0       ?SearchFreeClientIndex@@YAHPAHHHK@Z 0040f3b0 f   Util.obj
+ 0001:0000e430       ?RemoveCharacter@@YAPADPADD@Z 0040f430 f   Util.obj
+ 0001:0000e490       ??$sprintf_s@$09@@YAHAAY09DPBDZZ 0040f490 f i Util.obj
+ 0001:0000e4a9       ??_U@YAPAXI@Z              0040f4a9 f   msvcprt:newaop_s.obj
+ 0001:0000e4b4       ??0CInitGDIPlus@CImage@ATL@@QAE@XZ 0040f4b4 f i atls:atlimage2.obj
+ 0001:0000e4ef       ??1CDCCache@CImage@ATL@@QAE@XZ 0040f4ef f i atls:atlimage.obj
+ 0001:0000e50e       ??1CWin32Heap@ATL@@UAE@XZ  0040f50e f i atls:atlstr.obj
+ 0001:0000e529       ?Allocate@CWin32Heap@ATL@@UAEPAXI@Z 0040f529 f i atls:atlstr.obj
+ 0001:0000e540       ?Free@CWin32Heap@ATL@@UAEXPAX@Z 0040f540 f i atls:atlstr.obj
+ 0001:0000e55d       ?Reallocate@CWin32Heap@ATL@@UAEPAXPAXI@Z 0040f55d f i atls:atlstr.obj
+ 0001:0000e597       ?GetSize@CWin32Heap@ATL@@UAEIPAX@Z 0040f597 f i atls:atlstr.obj
+ 0001:0000e5ae       ??_ECWin32Heap@ATL@@UAEPAXI@Z 0040f5ae f i atls:atlstr.obj
+ 0001:0000e5ae       ??_GCWin32Heap@ATL@@UAEPAXI@Z 0040f5ae f i atls:atlstr.obj
+ 0001:0000e5cf       ??$AtlMultiply@I@ATL@@YAJPAIII@Z 0040f5cf f i atls:atlstr.obj
+ 0001:0000e5cf       ??$AtlMultiply@K@ATL@@YAJPAKKK@Z 0040f5cf f i atls:atlstr.obj
+ 0001:0000e5f3       ?Free@CAtlStringMgr@ATL@@UAEXPAUCStringData@2@@Z 0040f5f3 f i atls:atlstr.obj
+ 0001:0000e601       ?GetNilString@CAtlStringMgr@ATL@@UAEPAUCStringData@2@XZ 0040f601 f i atls:atlstr.obj
+ 0001:0000e60f       ?Clone@CAtlStringMgr@ATL@@UAEPAUIAtlStringMgr@2@XZ 0040f60f f i atls:atlstr.obj
+ 0001:0000e612       ??_GCAtlStringMgr@ATL@@UAEPAXI@Z 0040f612 f i atls:atlstr.obj
+ 0001:0000e612       ??_ECAtlStringMgr@ATL@@UAEPAXI@Z 0040f612 f i atls:atlstr.obj
+ 0001:0000e634       ??$AtlAdd@I@ATL@@YAJPAIII@Z 0040f634 f i atls:atlstr.obj
+ 0001:0000e65a       ?Allocate@CAtlStringMgr@ATL@@UAEPAUCStringData@2@HH@Z 0040f65a f i atls:atlstr.obj
+ 0001:0000e6be       ?Reallocate@CAtlStringMgr@ATL@@UAEPAUCStringData@2@PAU32@HH@Z 0040f6be f i atls:atlstr.obj
+ 0001:0000e719       ?RemoveAll@?$CSimpleArray@PAUHINSTANCE__@@V?$CSimpleArrayEqualHelper@PAUHINSTANCE__@@@ATL@@@ATL@@QAEXXZ 0040f719 f i atls:atlbase.obj
+ 0001:0000e738       ?Init@CComCriticalSection@ATL@@QAEJXZ 0040f738 f i atls:atlbase.obj
+ 0001:0000e763       ??0_ATL_BASE_MODULE70@ATL@@QAE@XZ 0040f763 f i atls:atlbase.obj
+ 0001:0000e788       ??1CAtlBaseModule@ATL@@QAE@XZ 0040f788 f   atls:atlbase.obj
+ 0001:0000e7a0       ?GetHInstanceAt@CAtlBaseModule@ATL@@QAEPAUHINSTANCE__@@H@Z 0040f7a0 f   atls:atlbase.obj
+ 0001:0000e7fd       ??0CAtlBaseModule@ATL@@QAE@XZ 0040f7fd f   atls:atlbase.obj
+ 0001:0000e83e       ??3@YAXPAX@Z               0040f83e f   MSVCRT:MSVCR100.dll
+ 0001:0000e844       @__security_check_cookie@4 0040f844 f   MSVCRT:secchk.obj
+ 0001:0000e853       __onexit                   0040f853 f   MSVCRT:atonexit.obj
+ 0001:0000e8f4       _atexit                    0040f8f4 f   MSVCRT:atonexit.obj
+ 0001:0000e90b       ??_Etype_info@@UAEPAXI@Z   0040f90b f i MSVCRT:ti_inst.obj
+ 0001:0000e958       ??2@YAPAXI@Z               0040f958 f   MSVCRT:MSVCR100.dll
+ 0001:0000e95e       ?what@exception@std@@UBEPBDXZ 0040f95e f   MSVCRT:MSVCR100.dll
+ 0001:0000e964       ??0exception@std@@QAE@ABV01@@Z 0040f964 f   MSVCRT:MSVCR100.dll
+ 0001:0000e96a       _free                      0040f96a f   MSVCRT:MSVCR100.dll
+ 0001:0000e970       ??_L@YGXPAXIHP6EX0@Z1@Z    0040f970 f   MSVCRT:ehvecctr.obj
+ 0001:0000e9d5       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 0040f9d5 f   MSVCRT:ehvecdtr.obj
+ 0001:0000ea33       ??_M@YGXPAXIHP6EX0@Z@Z     0040fa33 f   MSVCRT:ehvecdtr.obj
+ 0001:0000ed74       _WinMainCRTStartup         0040fd74 f   MSVCRT:crtexew.obj
+ 0001:0000ed7e       _memset                    0040fd7e f   MSVCRT:MSVCR100.dll
+ 0001:0000ed84       ___report_gsfailure        0040fd84 f   MSVCRT:gs_report.obj
+ 0001:0000ee8a       __unlock                   0040fe8a f   MSVCRT:MSVCR100.dll
+ 0001:0000ee90       ___dllonexit               0040fe90 f   MSVCRT:MSVCR100.dll
+ 0001:0000ee96       __lock                     0040fe96 f   MSVCRT:MSVCR100.dll
+ 0001:0000eea0       __SEH_prolog4              0040fea0 f   MSVCRT:sehprolg4.obj
+ 0001:0000eee5       __SEH_epilog4              0040fee5 f   MSVCRT:sehprolg4.obj
+ 0001:0000eef9       __except_handler4          0040fef9 f   MSVCRT:chandler4gs.obj
+ 0001:0000ef1e       ?terminate@@YAXXZ          0040ff1e f   MSVCRT:MSVCR100.dll
+ 0001:0000ef24       ?__CxxUnhandledExceptionFilter@@YGJPAU_EXCEPTION_POINTERS@@@Z 0040ff24 f   MSVCRT:unhandld.obj
+ 0001:0000ef66       ___CxxSetUnhandledExceptionFilter 0040ff66 f   MSVCRT:unhandld.obj
+ 0001:0000ef74       __amsg_exit                0040ff74 f   MSVCRT:MSVCR100.dll
+ 0001:0000ef7a       __RTC_Initialize           0040ff7a f   MSVCRT:_initsect_.obj
+ 0001:0000efa0       __RTC_Terminate            0040ffa0 f   MSVCRT:_initsect_.obj
+ 0001:0000efc6       __XcptFilter               0040ffc6 f   MSVCRT:MSVCR100.dll
+ 0001:0000efd0       __ValidateImageBase        0040ffd0 f   MSVCRT:pesect.obj
+ 0001:0000f010       __FindPESection            00410010 f   MSVCRT:pesect.obj
+ 0001:0000f060       __IsNonwritableInCurrentImage 00410060 f   MSVCRT:pesect.obj
+ 0001:0000f11c       __initterm                 0041011c f   MSVCRT:MSVCR100.dll
+ 0001:0000f122       __initterm_e               00410122 f   MSVCRT:MSVCR100.dll
+ 0001:0000f128       __setdefaultprecision      00410128 f   MSVCRT:fp8.obj
+ 0001:0000f150       __matherr                  00410150 f   MSVCRT:merr.obj
+ 0001:0000f150       __setargv                  00410150 f   MSVCRT:dllargv.obj
+ 0001:0000f153       ___security_init_cookie    00410153 f   MSVCRT:gs_support.obj
+ 0001:0000f1ee       __crt_debugger_hook        004101ee f   MSVCRT:MSVCR100.dll
+ 0001:0000f1f4       __except_handler4_common   004101f4 f   MSVCRT:MSVCR100.dll
+ 0001:0000f1fa       ??1type_info@@UAE@XZ       004101fa f   MSVCRT:MSVCR100.dll
+ 0001:0000f1fa       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 004101fa f   MSVCRT:MSVCR100.dll
+ 0001:0000f200       __invoke_watson            00410200 f   MSVCRT:MSVCR100.dll
+ 0001:0000f206       __controlfp_s              00410206 f   MSVCRT:MSVCR100.dll
+ 0001:0000f210       __alloca_probe             00410210     MSVCRT:chkstk.obj
+ 0001:0000f210       __chkstk                   00410210 f   MSVCRT:chkstk.obj
+ 0001:0000f240       __ftol2_sse                00410240 f   MSVCRT:ftol2.obj
+ 0001:0000f249       __ftol2_pentium4           00410249 f   MSVCRT:ftol2.obj
+ 0001:0000f25c       __ftol2_sse_excpt          0041025c f   MSVCRT:ftol2.obj
+ 0001:0000f276       __ftol2                    00410276 f   MSVCRT:ftol2.obj
+ 0001:0000f2ec       _memcpy                    004102ec f   MSVCRT:MSVCR100.dll
+ 0001:0000f2f2       __CxxThrowException@8      004102f2 f   MSVCRT:MSVCR100.dll
+ 0001:0000f300       __alloca_probe_16          00410300 f   MSVCRT:alloca16.obj
+ 0001:0000f316       __alloca_probe_8           00410316     MSVCRT:alloca16.obj
+ 0001:0000f32c       ___CxxFrameHandler3        0041032c f   MSVCRT:MSVCR100.dll
+ 0001:0000f332       ___sse2_available_init     00410332 f   MSVCRT:cpu_disp.obj
+ 0002:00000000       __imp__InitCommonControlsEx@4 00412000     comctl32:COMCTL32.dll
+ 0002:00000004       \177COMCTL32_NULL_THUNK_DATA 00412004     comctl32:COMCTL32.dll
+ 0002:00000008       __imp__SetDIBColorTable@16 00412008     gdi32:GDI32.dll
+ 0002:0000000c       __imp__CreateCompatibleDC@4 0041200c     gdi32:GDI32.dll
+ 0002:00000010       __imp__GetObjectA@12       00412010     gdi32:GDI32.dll
+ 0002:00000014       __imp__CreateDIBSection@24 00412014     gdi32:GDI32.dll
+ 0002:00000018       __imp__StretchBlt@44       00412018     gdi32:GDI32.dll
+ 0002:0000001c       __imp__GetDIBColorTable@16 0041201c     gdi32:GDI32.dll
+ 0002:00000020       __imp__SelectObject@8      00412020     gdi32:GDI32.dll
+ 0002:00000024       __imp__CreateFontA@56      00412024     gdi32:GDI32.dll
+ 0002:00000028       __imp__CreateSolidBrush@4  00412028     gdi32:GDI32.dll
+ 0002:0000002c       __imp__SetBkMode@8         0041202c     gdi32:GDI32.dll
+ 0002:00000030       __imp__SetTextColor@8      00412030     gdi32:GDI32.dll
+ 0002:00000034       __imp__TextOutA@20         00412034     gdi32:GDI32.dll
+ 0002:00000038       __imp__GetStockObject@4    00412038     gdi32:GDI32.dll
+ 0002:0000003c       __imp__GetDeviceCaps@8     0041203c     gdi32:GDI32.dll
+ 0002:00000040       __imp__DeleteDC@4          00412040     gdi32:GDI32.dll
+ 0002:00000044       __imp__DeleteObject@4      00412044     gdi32:GDI32.dll
+ 0002:00000048       \177GDI32_NULL_THUNK_DATA  00412048     gdi32:GDI32.dll
+ 0002:0000004c       __imp__SetUnhandledExceptionFilter@4 0041204c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__GetFullPathNameA@16 00412050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__OpenProcess@12      00412054     kernel32:KERNEL32.dll
+ 0002:00000058       __imp__VirtualAllocEx@20   00412058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__WriteProcessMemory@20 0041205c     kernel32:KERNEL32.dll
+ 0002:00000060       __imp__VirtualFreeEx@16    00412060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp__GetProcAddress@8    00412064     kernel32:KERNEL32.dll
+ 0002:00000068       __imp__GetProcessId@4      00412068     kernel32:KERNEL32.dll
+ 0002:0000006c       __imp__CreateMutexA@12     0041206c     kernel32:KERNEL32.dll
+ 0002:00000070       __imp__CreateRemoteThread@28 00412070     kernel32:KERNEL32.dll
+ 0002:00000074       __imp__WaitForSingleObject@8 00412074     kernel32:KERNEL32.dll
+ 0002:00000078       __imp__DeleteFileA@4       00412078     kernel32:KERNEL32.dll
+ 0002:0000007c       __imp__GlobalAlloc@8       0041207c     kernel32:KERNEL32.dll
+ 0002:00000080       __imp__GlobalLock@4        00412080     kernel32:KERNEL32.dll
+ 0002:00000084       __imp__InterlockedExchange@8 00412084     kernel32:KERNEL32.dll
+ 0002:00000088       __imp__GlobalUnlock@4      00412088     kernel32:KERNEL32.dll
+ 0002:0000008c       __imp__GlobalFree@4        0041208c     kernel32:KERNEL32.dll
+ 0002:00000090       __imp__MultiByteToWideChar@24 00412090     kernel32:KERNEL32.dll
+ 0002:00000094       __imp__lstrlenA@4          00412094     kernel32:KERNEL32.dll
+ 0002:00000098       __imp__SizeofResource@8    00412098     kernel32:KERNEL32.dll
+ 0002:0000009c       __imp__LockResource@4      0041209c     kernel32:KERNEL32.dll
+ 0002:000000a0       __imp__LoadResource@8      004120a0     kernel32:KERNEL32.dll
+ 0002:000000a4       __imp__FindResourceW@12    004120a4     kernel32:KERNEL32.dll
+ 0002:000000a8       __imp__FindResourceExW@16  004120a8     kernel32:KERNEL32.dll
+ 0002:000000ac       __imp__GetLastError@0      004120ac     kernel32:KERNEL32.dll
+ 0002:000000b0       __imp__SetThreadPriority@8 004120b0     kernel32:KERNEL32.dll
+ 0002:000000b4       __imp__GetCurrentProcess@0 004120b4     kernel32:KERNEL32.dll
+ 0002:000000b8       __imp__GetPrivateProfileIntA@16 004120b8     kernel32:KERNEL32.dll
+ 0002:000000bc       __imp__TerminateThread@8   004120bc     kernel32:KERNEL32.dll
+ 0002:000000c0       __imp__CreateIoCompletionPort@16 004120c0     kernel32:KERNEL32.dll
+ 0002:000000c4       __imp__GetSystemInfo@4     004120c4     kernel32:KERNEL32.dll
+ 0002:000000c8       __imp__CreateSemaphoreA@16 004120c8     kernel32:KERNEL32.dll
+ 0002:000000cc       __imp__ReleaseSemaphore@12 004120cc     kernel32:KERNEL32.dll
+ 0002:000000d0       __imp__GetQueuedCompletionStatus@20 004120d0     kernel32:KERNEL32.dll
+ 0002:000000d4       __imp__TerminateProcess@8  004120d4     kernel32:KERNEL32.dll
+ 0002:000000d8       __imp__GetSystemTimeAsFileTime@4 004120d8     kernel32:KERNEL32.dll
+ 0002:000000dc       __imp__QueryPerformanceCounter@4 004120dc     kernel32:KERNEL32.dll
+ 0002:000000e0       __imp__IsDebuggerPresent@0 004120e0     kernel32:KERNEL32.dll
+ 0002:000000e4       __imp__UnhandledExceptionFilter@4 004120e4     kernel32:KERNEL32.dll
+ 0002:000000e8       __imp__GetStartupInfoW@4   004120e8     kernel32:KERNEL32.dll
+ 0002:000000ec       __imp__HeapSetInformation@16 004120ec     kernel32:KERNEL32.dll
+ 0002:000000f0       __imp__InterlockedCompareExchange@12 004120f0     kernel32:KERNEL32.dll
+ 0002:000000f4       __imp__DecodePointer@4     004120f4     kernel32:KERNEL32.dll
+ 0002:000000f8       __imp__EncodePointer@4     004120f8     kernel32:KERNEL32.dll
+ 0002:000000fc       __imp__RaiseException@16   004120fc     kernel32:KERNEL32.dll
+ 0002:00000100       __imp__GetProcessHeap@0    00412100     kernel32:KERNEL32.dll
+ 0002:00000104       __imp__HeapSize@12         00412104     kernel32:KERNEL32.dll
+ 0002:00000108       __imp__HeapReAlloc@16      00412108     kernel32:KERNEL32.dll
+ 0002:0000010c       __imp__HeapFree@12         0041210c     kernel32:KERNEL32.dll
+ 0002:00000110       __imp__HeapAlloc@12        00412110     kernel32:KERNEL32.dll
+ 0002:00000114       __imp__HeapDestroy@4       00412114     kernel32:KERNEL32.dll
+ 0002:00000118       __imp__InitializeCriticalSectionAndSpinCount@8 00412118     kernel32:KERNEL32.dll
+ 0002:0000011c       __imp__GetCurrentProcessId@0 0041211c     kernel32:KERNEL32.dll
+ 0002:00000120       __imp__GetCurrentThreadId@0 00412120     kernel32:KERNEL32.dll
+ 0002:00000124       __imp__IsProcessorFeaturePresent@4 00412124     kernel32:KERNEL32.dll
+ 0002:00000128       __imp__ReadFile@20         00412128     kernel32:KERNEL32.dll
+ 0002:0000012c       __imp__GetFileSize@8       0041212c     kernel32:KERNEL32.dll
+ 0002:00000130       __imp__WriteFile@20        00412130     kernel32:KERNEL32.dll
+ 0002:00000134       __imp__SetFilePointer@16   00412134     kernel32:KERNEL32.dll
+ 0002:00000138       __imp__CreateFileA@28      00412138     kernel32:KERNEL32.dll
+ 0002:0000013c       __imp__GetLocalTime@4      0041213c     kernel32:KERNEL32.dll
+ 0002:00000140       __imp__CreateDirectoryA@8  00412140     kernel32:KERNEL32.dll
+ 0002:00000144       __imp__CloseHandle@4       00412144     kernel32:KERNEL32.dll
+ 0002:00000148       __imp__GetModuleHandleA@4  00412148     kernel32:KERNEL32.dll
+ 0002:0000014c       __imp__LeaveCriticalSection@4 0041214c     kernel32:KERNEL32.dll
+ 0002:00000150       __imp__EnterCriticalSection@4 00412150     kernel32:KERNEL32.dll
+ 0002:00000154       __imp__DeleteCriticalSection@4 00412154     kernel32:KERNEL32.dll
+ 0002:00000158       __imp__InitializeCriticalSection@4 00412158     kernel32:KERNEL32.dll
+ 0002:0000015c       __imp__GetTickCount@0      0041215c     kernel32:KERNEL32.dll
+ 0002:00000160       __imp__Sleep@4             00412160     kernel32:KERNEL32.dll
+ 0002:00000164       __imp__GetPrivateProfileStringA@24 00412164     kernel32:KERNEL32.dll
+ 0002:00000168       __imp__CreateThread@24     00412168     kernel32:KERNEL32.dll
+ 0002:0000016c       \177KERNEL32_NULL_THUNK_DATA 0041216c     kernel32:KERNEL32.dll
+ 0002:00000170       __imp__AlphaBlend@44       00412170     msimg32:MSIMG32.dll
+ 0002:00000174       __imp__TransparentBlt@44   00412174     msimg32:MSIMG32.dll
+ 0002:00000178       \177MSIMG32_NULL_THUNK_DATA 00412178     msimg32:MSIMG32.dll
+ 0002:0000017c       __imp_?_Swap_all@_Container_base12@std@@QAEXAAU12@@Z 0041217c     msvcprt:MSVCP100.dll
+ 0002:00000180       __imp_??1_Container_base12@std@@QAE@XZ 00412180     msvcprt:MSVCP100.dll
+ 0002:00000184       __imp_?_Xout_of_range@std@@YAXPBD@Z 00412184     msvcprt:MSVCP100.dll
+ 0002:00000188       __imp_?_Xlength_error@std@@YAXPBD@Z 00412188     msvcprt:MSVCP100.dll
+ 0002:0000018c       \177MSVCP100_NULL_THUNK_DATA 0041218c     msvcprt:MSVCP100.dll
+ 0002:00000190       __imp_??_V@YAXPAX@Z        00412190     MSVCRT:MSVCR100.dll
+ 0002:00000194       __imp__sprintf             00412194     MSVCRT:MSVCR100.dll
+ 0002:00000198       __imp__isspace             00412198     MSVCRT:MSVCR100.dll
+ 0002:0000019c       __imp__strchr              0041219c     MSVCRT:MSVCR100.dll
+ 0002:000001a0       __imp____CxxFrameHandler3  004121a0     MSVCRT:MSVCR100.dll
+ 0002:000001a4       __imp___CxxThrowException@8 004121a4     MSVCRT:MSVCR100.dll
+ 0002:000001a8       __imp__isdigit             004121a8     MSVCRT:MSVCR100.dll
+ 0002:000001ac       __imp__atof                004121ac     MSVCRT:MSVCR100.dll
+ 0002:000001b0       __imp__isalpha             004121b0     MSVCRT:MSVCR100.dll
+ 0002:000001b4       __imp__isalnum             004121b4     MSVCRT:MSVCR100.dll
+ 0002:000001b8       __imp__sscanf_s            004121b8     MSVCRT:MSVCR100.dll
+ 0002:000001bc       __imp__vsprintf            004121bc     MSVCRT:MSVCR100.dll
+ 0002:000001c0       __imp__strtok              004121c0     MSVCRT:MSVCR100.dll
+ 0002:000001c4       __imp__fopen               004121c4     MSVCRT:MSVCR100.dll
+ 0002:000001c8       __imp__strncpy_s           004121c8     MSVCRT:MSVCR100.dll
+ 0002:000001cc       __imp__strstr              004121cc     MSVCRT:MSVCR100.dll
+ 0002:000001d0       __imp__vsprintf_s          004121d0     MSVCRT:MSVCR100.dll
+ 0002:000001d4       __imp__memcpy              004121d4     MSVCRT:MSVCR100.dll
+ 0002:000001d8       __imp__atoi                004121d8     MSVCRT:MSVCR100.dll
+ 0002:000001dc       __imp__strtok_s            004121dc     MSVCRT:MSVCR100.dll
+ 0002:000001e0       __imp__free                004121e0     MSVCRT:MSVCR100.dll
+ 0002:000001e4       __imp__fprintf             004121e4     MSVCRT:MSVCR100.dll
+ 0002:000001e8       __imp__fclose              004121e8     MSVCRT:MSVCR100.dll
+ 0002:000001ec       __imp__malloc              004121ec     MSVCRT:MSVCR100.dll
+ 0002:000001f0       __imp__fopen_s             004121f0     MSVCRT:MSVCR100.dll
+ 0002:000001f4       __imp_??0exception@std@@QAE@ABV01@@Z 004121f4     MSVCRT:MSVCR100.dll
+ 0002:000001f8       __imp_??0exception@std@@QAE@ABQBD@Z 004121f8     MSVCRT:MSVCR100.dll
+ 0002:000001fc       __imp_??1exception@std@@UAE@XZ 004121fc     MSVCRT:MSVCR100.dll
+ 0002:00000200       __imp_?what@exception@std@@UBEPBDXZ 00412200     MSVCRT:MSVCR100.dll
+ 0002:00000204       __imp_??2@YAPAXI@Z         00412204     MSVCRT:MSVCR100.dll
+ 0002:00000208       __imp__strcpy_s            00412208     MSVCRT:MSVCR100.dll
+ 0002:0000020c       __imp__memmove             0041220c     MSVCRT:MSVCR100.dll
+ 0002:00000210       __imp__rand                00412210     MSVCRT:MSVCR100.dll
+ 0002:00000214       __imp_??3@YAXPAX@Z         00412214     MSVCRT:MSVCR100.dll
+ 0002:00000218       __imp__memcpy_s            00412218     MSVCRT:MSVCR100.dll
+ 0002:0000021c       __imp___controlfp_s        0041221c     MSVCRT:MSVCR100.dll
+ 0002:00000220       __imp___invoke_watson      00412220     MSVCRT:MSVCR100.dll
+ 0002:00000224       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 00412224     MSVCRT:MSVCR100.dll
+ 0002:00000228       __imp___except_handler4_common 00412228     MSVCRT:MSVCR100.dll
+ 0002:0000022c       __imp___resetstkoflw       0041222c     MSVCRT:MSVCR100.dll
+ 0002:00000230       __imp___crt_debugger_hook  00412230     MSVCRT:MSVCR100.dll
+ 0002:00000234       __imp____set_app_type      00412234     MSVCRT:MSVCR100.dll
+ 0002:00000238       __imp___fmode              00412238     MSVCRT:MSVCR100.dll
+ 0002:0000023c       __imp___commode            0041223c     MSVCRT:MSVCR100.dll
+ 0002:00000240       __imp____setusermatherr    00412240     MSVCRT:MSVCR100.dll
+ 0002:00000244       __imp___configthreadlocale 00412244     MSVCRT:MSVCR100.dll
+ 0002:00000248       __imp___initterm_e         00412248     MSVCRT:MSVCR100.dll
+ 0002:0000024c       __imp___initterm           0041224c     MSVCRT:MSVCR100.dll
+ 0002:00000250       __imp___acmdln             00412250     MSVCRT:MSVCR100.dll
+ 0002:00000254       __imp__exit                00412254     MSVCRT:MSVCR100.dll
+ 0002:00000258       __imp___ismbblead          00412258     MSVCRT:MSVCR100.dll
+ 0002:0000025c       __imp__fwrite              0041225c     MSVCRT:MSVCR100.dll
+ 0002:00000260       __imp__fread               00412260     MSVCRT:MSVCR100.dll
+ 0002:00000264       __imp___XcptFilter         00412264     MSVCRT:MSVCR100.dll
+ 0002:00000268       __imp___vswprintf          00412268     MSVCRT:MSVCR100.dll
+ 0002:0000026c       __imp__rename              0041226c     MSVCRT:MSVCR100.dll
+ 0002:00000270       __imp___exit               00412270     MSVCRT:MSVCR100.dll
+ 0002:00000274       __imp___cexit              00412274     MSVCRT:MSVCR100.dll
+ 0002:00000278       __imp____getmainargs       00412278     MSVCRT:MSVCR100.dll
+ 0002:0000027c       __imp___amsg_exit          0041227c     MSVCRT:MSVCR100.dll
+ 0002:00000280       __imp_?terminate@@YAXXZ    00412280     MSVCRT:MSVCR100.dll
+ 0002:00000284       __imp___onexit             00412284     MSVCRT:MSVCR100.dll
+ 0002:00000288       __imp___lock               00412288     MSVCRT:MSVCR100.dll
+ 0002:0000028c       __imp____dllonexit         0041228c     MSVCRT:MSVCR100.dll
+ 0002:00000290       __imp___unlock             00412290     MSVCRT:MSVCR100.dll
+ 0002:00000294       __imp__memset              00412294     MSVCRT:MSVCR100.dll
+ 0002:00000298       __imp__asctime_s           00412298     MSVCRT:MSVCR100.dll
+ 0002:0000029c       __imp___wcsicmp            0041229c     MSVCRT:MSVCR100.dll
+ 0002:000002a0       __imp___localtime64_s      004122a0     MSVCRT:MSVCR100.dll
+ 0002:000002a4       __imp___time64             004122a4     MSVCRT:MSVCR100.dll
+ 0002:000002a8       __imp__strtoul             004122a8     MSVCRT:MSVCR100.dll
+ 0002:000002ac       __imp___recalloc           004122ac     MSVCRT:MSVCR100.dll
+ 0002:000002b0       __imp__calloc              004122b0     MSVCRT:MSVCR100.dll
+ 0002:000002b4       __imp__wmemcpy_s           004122b4     MSVCRT:MSVCR100.dll
+ 0002:000002b8       __imp__memmove_s           004122b8     MSVCRT:MSVCR100.dll
+ 0002:000002bc       __imp__wcsspn              004122bc     MSVCRT:MSVCR100.dll
+ 0002:000002c0       __imp__wcscspn             004122c0     MSVCRT:MSVCR100.dll
+ 0002:000002c4       \177MSVCR100_NULL_THUNK_DATA 004122c4     MSVCRT:MSVCR100.dll
+ 0002:000002c8       __imp__EnumProcesses@12    004122c8     Psapi:PSAPI.DLL
+ 0002:000002cc       __imp__GetModuleBaseNameA@16 004122cc     Psapi:PSAPI.DLL
+ 0002:000002d0       __imp__GetModuleFileNameExA@16 004122d0     Psapi:PSAPI.DLL
+ 0002:000002d4       __imp__EnumProcessModules@16 004122d4     Psapi:PSAPI.DLL
+ 0002:000002d8       \177PSAPI_NULL_THUNK_DATA  004122d8     Psapi:PSAPI.DLL
+ 0002:000002dc       __imp__PathFindExtensionA@4 004122dc     shlwapi:SHLWAPI.dll
+ 0002:000002e0       __imp__PathFindExtensionW@4 004122e0     shlwapi:SHLWAPI.dll
+ 0002:000002e4       \177SHLWAPI_NULL_THUNK_DATA 004122e4     shlwapi:SHLWAPI.dll
+ 0002:000002e8       __imp__DialogBoxParamA@20  004122e8     user32:USER32.dll
+ 0002:000002ec       __imp__CreateDialogParamA@20 004122ec     user32:USER32.dll
+ 0002:000002f0       __imp__UpdateWindow@4      004122f0     user32:USER32.dll
+ 0002:000002f4       __imp__ShowWindow@8        004122f4     user32:USER32.dll
+ 0002:000002f8       __imp__DefWindowProcA@16   004122f8     user32:USER32.dll
+ 0002:000002fc       __imp__RegisterClassExA@4  004122fc     user32:USER32.dll
+ 0002:00000300       __imp__LoadCursorA@8       00412300     user32:USER32.dll
+ 0002:00000304       __imp__LoadIconA@8         00412304     user32:USER32.dll
+ 0002:00000308       __imp__DispatchMessageA@4  00412308     user32:USER32.dll
+ 0002:0000030c       __imp__TranslateMessage@4  0041230c     user32:USER32.dll
+ 0002:00000310       __imp__TranslateAcceleratorA@12 00412310     user32:USER32.dll
+ 0002:00000314       __imp__GetMessageA@16      00412314     user32:USER32.dll
+ 0002:00000318       __imp__LoadAcceleratorsA@8 00412318     user32:USER32.dll
+ 0002:0000031c       __imp__SetTimer@16         0041231c     user32:USER32.dll
+ 0002:00000320       __imp__SetWindowTextA@8    00412320     user32:USER32.dll
+ 0002:00000324       __imp__wsprintfA           00412324     user32:USER32.dll
+ 0002:00000328       __imp__LoadStringA@16      00412328     user32:USER32.dll
+ 0002:0000032c       __imp__DestroyWindow@4     0041232c     user32:USER32.dll
+ 0002:00000330       __imp__CreateWindowExA@48  00412330     user32:USER32.dll
+ 0002:00000334       __imp__PostQuitMessage@4   00412334     user32:USER32.dll
+ 0002:00000338       __imp__EndDialog@8         00412338     user32:USER32.dll
+ 0002:0000033c       __imp__SetClassLongA@12    0041233c     user32:USER32.dll
+ 0002:00000340       __imp__GetDlgItem@8        00412340     user32:USER32.dll
+ 0002:00000344       __imp__SendMessageA@16     00412344     user32:USER32.dll
+ 0002:00000348       __imp__SetDlgItemTextA@12  00412348     user32:USER32.dll
+ 0002:0000034c       __imp__GetDlgItemTextA@16  0041234c     user32:USER32.dll
+ 0002:00000350       __imp__BeginPaint@8        00412350     user32:USER32.dll
+ 0002:00000354       __imp__EndPaint@8          00412354     user32:USER32.dll
+ 0002:00000358       __imp__GetDC@4             00412358     user32:USER32.dll
+ 0002:0000035c       __imp__GetClientRect@8     0041235c     user32:USER32.dll
+ 0002:00000360       __imp__ReleaseDC@8         00412360     user32:USER32.dll
+ 0002:00000364       __imp__MoveWindow@24       00412364     user32:USER32.dll
+ 0002:00000368       __imp__FillRect@12         00412368     user32:USER32.dll
+ 0002:0000036c       __imp__MessageBoxA@16      0041236c     user32:USER32.dll
+ 0002:00000370       \177USER32_NULL_THUNK_DATA 00412370     user32:USER32.dll
+ 0002:00000374       __imp__WSAStartup@8        00412374     ws2_32:WS2_32.dll
+ 0002:00000378       __imp__WSAAccept@20        00412378     ws2_32:WS2_32.dll
+ 0002:0000037c       __imp__inet_ntoa@4         0041237c     ws2_32:WS2_32.dll
+ 0002:00000380       __imp__WSARecv@28          00412380     ws2_32:WS2_32.dll
+ 0002:00000384       __imp__WSASend@28          00412384     ws2_32:WS2_32.dll
+ 0002:00000388       __imp__listen@8            00412388     ws2_32:WS2_32.dll
+ 0002:0000038c       __imp__bind@12             0041238c     ws2_32:WS2_32.dll
+ 0002:00000390       __imp__htonl@4             00412390     ws2_32:WS2_32.dll
+ 0002:00000394       __imp__WSASocketA@24       00412394     ws2_32:WS2_32.dll
+ 0002:00000398       __imp__send@16             00412398     ws2_32:WS2_32.dll
+ 0002:0000039c       __imp__recv@16             0041239c     ws2_32:WS2_32.dll
+ 0002:000003a0       __imp__closesocket@4       004123a0     ws2_32:WS2_32.dll
+ 0002:000003a4       __imp__WSAGetLastError@0   004123a4     ws2_32:WS2_32.dll
+ 0002:000003a8       __imp__connect@12          004123a8     ws2_32:WS2_32.dll
+ 0002:000003ac       __imp__gethostbyname@4     004123ac     ws2_32:WS2_32.dll
+ 0002:000003b0       __imp__htons@4             004123b0     ws2_32:WS2_32.dll
+ 0002:000003b4       __imp__socket@12           004123b4     ws2_32:WS2_32.dll
+ 0002:000003b8       \177WS2_32_NULL_THUNK_DATA 004123b8     ws2_32:WS2_32.dll
+ 0002:000003bc       __imp__GdipCreateBitmapFromFile@8 004123bc     gdiplus:gdiplus.dll
+ 0002:000003c0       __imp__GdipGetImageEncodersSize@8 004123c0     gdiplus:gdiplus.dll
+ 0002:000003c4       __imp__GdipGetImageEncoders@12 004123c4     gdiplus:gdiplus.dll
+ 0002:000003c8       __imp__GdipCreateBitmapFromHBITMAP@12 004123c8     gdiplus:gdiplus.dll
+ 0002:000003cc       __imp__GdipSaveImageToFile@16 004123cc     gdiplus:gdiplus.dll
+ 0002:000003d0       __imp__GdipDrawString@28   004123d0     gdiplus:gdiplus.dll
+ 0002:000003d4       __imp__GdipCloneBrush@8    004123d4     gdiplus:gdiplus.dll
+ 0002:000003d8       __imp__GdipDeleteBrush@4   004123d8     gdiplus:gdiplus.dll
+ 0002:000003dc       __imp__GdipCreateSolidFill@8 004123dc     gdiplus:gdiplus.dll
+ 0002:000003e0       __imp__GdipDeleteFont@4    004123e0     gdiplus:gdiplus.dll
+ 0002:000003e4       __imp__GdipCreateFontFamilyFromName@12 004123e4     gdiplus:gdiplus.dll
+ 0002:000003e8       __imp__GdipCreateFont@20   004123e8     gdiplus:gdiplus.dll
+ 0002:000003ec       __imp__GdipCreateFromHDC@8 004123ec     gdiplus:gdiplus.dll
+ 0002:000003f0       __imp__GdipCreateBitmapFromStream@8 004123f0     gdiplus:gdiplus.dll
+ 0002:000003f4       __imp__GdipGetImagePixelFormat@8 004123f4     gdiplus:gdiplus.dll
+ 0002:000003f8       __imp__GdipGetImageHeight@8 004123f8     gdiplus:gdiplus.dll
+ 0002:000003fc       __imp__GdipGetImageWidth@8 004123fc     gdiplus:gdiplus.dll
+ 0002:00000400       __imp__GdipGetImagePaletteSize@8 00412400     gdiplus:gdiplus.dll
+ 0002:00000404       __imp__GdipGetImagePalette@12 00412404     gdiplus:gdiplus.dll
+ 0002:00000408       __imp__GdipBitmapLockBits@20 00412408     gdiplus:gdiplus.dll
+ 0002:0000040c       __imp__GdipBitmapUnlockBits@8 0041240c     gdiplus:gdiplus.dll
+ 0002:00000410       __imp__GdipCreateBitmapFromScan0@24 00412410     gdiplus:gdiplus.dll
+ 0002:00000414       __imp__GdipCloneImage@8    00412414     gdiplus:gdiplus.dll
+ 0002:00000418       __imp__GdipAlloc@4         00412418     gdiplus:gdiplus.dll
+ 0002:0000041c       __imp__GdipFree@4          0041241c     gdiplus:gdiplus.dll
+ 0002:00000420       __imp__GdipDisposeImage@4  00412420     gdiplus:gdiplus.dll
+ 0002:00000424       __imp__GdipGetImageGraphicsContext@8 00412424     gdiplus:gdiplus.dll
+ 0002:00000428       __imp__GdipDeleteGraphics@4 00412428     gdiplus:gdiplus.dll
+ 0002:0000042c       __imp__GdipDrawImageI@16   0041242c     gdiplus:gdiplus.dll
+ 0002:00000430       __imp__GdiplusShutdown@4   00412430     gdiplus:gdiplus.dll
+ 0002:00000434       __imp__GdiplusStartup@12   00412434     gdiplus:gdiplus.dll
+ 0002:00000438       __imp__GdipDeleteFontFamily@4 00412438     gdiplus:gdiplus.dll
+ 0002:0000043c       \177gdiplus_NULL_THUNK_DATA 0041243c     gdiplus:gdiplus.dll
+ 0002:00000440       __imp__CreateStreamOnHGlobal@12 00412440     ole32:ole32.dll
+ 0002:00000444       \177ole32_NULL_THUNK_DATA  00412444     ole32:ole32.dll
+ 0002:00000448       ___xc_a                    00412448     MSVCRT:cinitexe.obj
+ 0002:00000498       ___xc_z                    00412498     MSVCRT:cinitexe.obj
+ 0002:0000049c       ___xi_a                    0041249c     MSVCRT:cinitexe.obj
+ 0002:000004ac       ___xi_z                    004124ac     MSVCRT:cinitexe.obj
+ 0002:000004cc       _GUID_NULL                 004124cc     uuid:cguid_i.obj
+ 0002:000004dc       ??_7CWin32Heap@ATL@@6B@    004124dc     atls:atlstr.obj
+ 0002:000004f0       ??_7CAtlStringMgr@ATL@@6B@ 004124f0     atls:atlstr.obj
+ 0002:00000508       _GUID_ATLVer30             00412508     atls:atlbase.obj
+ 0002:00000518       _GUID_ATLVer70             00412518     atls:atlbase.obj
+ 0002:00000528       _GUID_ATLVer100            00412528     atls:atlbase.obj
+ 0002:00000538       _ImageFormatJPEG           00412538     gdiplus:imagingguds.obj
+ 0002:0000054c       ??_7type_info@@6B@         0041254c     MSVCRT:ti_inst.obj
+ 0002:0000055c       ??_7CAuthenticate@@6B@     0041255c     Authenticate.obj
+ 0002:00000560       ??_C@_03JBJLGPFL@end?$AA@  00412560     BlackList.obj
+ 0002:00000564       ??_C@_0BD@MGPGFILE@?$CFs?5file?5read?5error?$AA@ 00412564     BlackList.obj
+ 0002:00000578       ??_C@_0BD@OLBABOEK@vector?$DMT?$DO?5too?5long?$AA@ 00412578     BlackList.obj
+ 0002:00000590       ??_7CBlackList@@6B@        00412590     BlackList.obj
+ 0002:00000598       ??_7bad_alloc@std@@6B@     00412598     BlackList.obj
+ 0002:000005a0       ??_C@_02JDPG@rb?$AA@       004125a0     CCRC32.obj
+ 0002:000005a4       ??_C@_0CD@HDMPEILL@?$FLClientManager?$FN?$FL?$CFd?$FN?5AddClient?5?$CI?$CF@ 004125a4     ClientManager.obj
+ 0002:000005c8       ??_C@_0CD@IHEEMECL@?$FLClientManager?$FN?$FL?$CFd?$FN?5DelClient?5?$CI?$CF@ 004125c8     ClientManager.obj
+ 0002:000005ec       ??_C@_0DA@DCNIIOGP@?$FLClientManager?$FN?$FL?$CFd?$FN?5ClientInfo?5?$CI@ 004125ec     ClientManager.obj
+ 0002:00000620       ??_7CClientManager@@6B@    00412620     ClientManager.obj
+ 0002:00000628       ??_7CCriticalSection@@6B@  00412628     CriticalSection.obj
+ 0002:0000062c       ??_C@_0DB@BNBDJNPH@GET?5?$CFs?5HTTP?11?41?$AN?6Host?3?5?$CFs?$AN?6Conne@ 0041262c     FileDownloadHTTP.obj
+ 0002:00000660       ??_C@_01CLKCMJKC@?5?$AA@   00412660     FileDownloadHTTP.obj
+ 0002:00000664       ??_C@_08JAFHAICJ@HTTP?11?40?$AA@ 00412664     FileDownloadHTTP.obj
+ 0002:00000670       ??_C@_08IJEMDJGI@HTTP?11?41?$AA@ 00412670     FileDownloadHTTP.obj
+ 0002:0000067c       ??_C@_03GACAABJG@?3?1?1?$AA@ 0041267c     FileDownloadURL.obj
+ 0002:00000680       ??_C@_03LMDBDBEG@ftp?$AA@  00412680     FileDownloadURL.obj
+ 0002:00000684       ??_C@_01KMDKNFGN@?1?$AA@   00412684     FileDownloadURL.obj
+ 0002:00000688       ??_C@_0O@BNKHEHEF@?4?2Configs?4ini?$AA@ 00412688     HackServer.obj
+ 0002:00000698       ??_C@_0L@EOBFBFOK@GameShield?$AA@ 00412698     HackServer.obj
+ 0002:000006a4       ??_C@_07ENPLOGEN@PREMIUM?$AA@ 004126a4     HackServer.obj
+ 0002:000006ac       ??_C@_0DM@IMDDPLPE@?$FL?$CFs?$FN?5GameShield?5AntiHack?5?$CL?5Deskt@ 004126ac     HackServer.obj
+ 0002:000006e8       ??_C@_0CD@EEEDCGMD@WSAStartup?$CI?$CJ?5failed?5with?5error?3?5@ 004126e8     HackServer.obj
+ 0002:0000070c       ??_C@_0BF@DKFKNJKD@Ask?5terminate?5server?$AA@ 0041270c     HackServer.obj
+ 0002:00000724       ??_C@_0BM@HLNJDKAP@Are?5you?5sure?5to?5terminate?5?$DP?$AA@ 00412724     HackServer.obj
+ 0002:00000740       ??_C@_0BD@PLCCJMDH@Connected?5?$CFd?5Users?$AA@ 00412740     HackServer.obj
+ 0002:00000754       ??_C@_07JAEGOAMJ@?$CFd?$CJ?4?5?$CFs?$AA@ 00412754     HackServer.obj
+ 0002:0000075c       ??_C@_0CI@PAMGEBBE@?$FLDesktopCapture?$FN?5Error?4?5Cant?5get@ 0041275c     HackServer.obj
+ 0002:00000784       ??_C@_0BK@PACGKKMN@ScreenShot?5button?5pressed?$AA@ 00412784     HackServer.obj
+ 0002:000007a0       ??_C@_0L@HBGIEBBG@Index?5?$DN?5?$CFd?$AA@ 004127a0     HackServer.obj
+ 0002:000007ac       ??_C@_0BK@LOONMKLN@Temporary?5Banned?5?$CFd?5Users?$AA@ 004127ac     HackServer.obj
+ 0002:000007c8       ??_C@_06PNALCGN@SCREEN?$AA@ 004127c8     HackServer.obj
+ 0002:000007d0       ??_C@_0O@IJGGEEB@SysListView32?$AA@ 004127d0     HackServer.obj
+ 0002:000007e0       ??_C@_04FABLJDN@Name?$AA@  004127e0     HackServer.obj
+ 0002:000007e8       ??_C@_03POOIBDAP@PID?$AA@  004127e8     HackServer.obj
+ 0002:000007ec       ??_C@_04KHHPIHEA@Dump?$AA@ 004127ec     HackServer.obj
+ 0002:000007f4       ??_C@_06ILBMFDPK@?N?x?h?a?j?$OA?$AA@ 004127f4     HackServer.obj
+ 0002:000007fc       ??_C@_0CE@MDANLDPK@?M?e?b?n?g?l?n?f?m?n?5?q?n?g?d?$OA?r?$PM?5?$PN?k?e?l?e?m?r?5ListV@ 004127fc     HackServer.obj
+ 0002:00000820       ??_C@_0N@OAECLGMI@Process?5List?$AA@ 00412820     HackServer.obj
+ 0002:0000082d       ??_C@_00CNPNBAHC@?$AA@     0041282d     HackServer.obj
+ 0002:00000830       ??_C@_0BA@BHNNEEIL@RECV?5Screenshot?$AA@ 00412830     HackServerProtocol.obj
+ 0002:00000840       ??_C@_03PKJNHJHG@3?43?$AA@ 00412840     HackServerProtocol.obj
+ 0002:00000844       ??_C@_0CH@PFHNOILP@?$FLAntiExploid?$FN?5Closing?5detected?5E@ 00412844     HackServerProtocol.obj
+ 0002:00000870       ??_C@_0FA@LGEGHNPL@?$FLMultiSession?$FN?5Hardware?5id?5was?5p@ 00412870     HackServerProtocol.obj
+ 0002:000008c0       ??_C@_0DA@ODAECOLG@?$FLMultiSessions?$FN?5Closing?5detected@ 004128c0     HackServerProtocol.obj
+ 0002:000008f0       ??_C@_0BD@OGAKHEOK@?$FLMultiSessions?5?$CFs?$FN?$AA@ 004128f0     HackServerProtocol.obj
+ 0002:00000904       ??_C@_0BN@EFCOOLKO@?$FLgBlackList?4CheckHardwareId?$FN?$AA@ 00412904     HackServerProtocol.obj
+ 0002:00000924       ??_C@_0BM@KJINGHCO@?$FLgBlackList?4CheckIpAddress?$FN?$AA@ 00412924     HackServerProtocol.obj
+ 0002:00000940       ??_C@_02BAABKJLB@?9?9?$AA@ 00412940     HackServerProtocol.obj
+ 0002:00000944       ??_C@_04KGFMLCPK@Main?$AA@ 00412944     HackServerProtocol.obj
+ 0002:0000094c       ??_C@_0P@JFOLCNLF@DUMP_DETECTION?$AA@ 0041294c     HackServerProtocol.obj
+ 0002:0000095c       ??_C@_0BF@MKJGMPLE@EXECUTABLE_DETECTION?$AA@ 0041295c     HackServerProtocol.obj
+ 0002:00000974       ??_C@_0P@DIAHHCAM@FILE_DETECTION?$AA@ 00412974     HackServerProtocol.obj
+ 0002:00000984       ??_C@_0BH@GAHMJHAK@FILE_MAPPING_DETECTION?$AA@ 00412984     HackServerProtocol.obj
+ 0002:0000099c       ??_C@_0BC@BCBGLHB@LIBRARY_DETECTION?$AA@ 0041299c     HackServerProtocol.obj
+ 0002:000009b0       ??_C@_0BD@CONKPOKP@REGISTRY_DETECTION?$AA@ 004129b0     HackServerProtocol.obj
+ 0002:000009c4       ??_C@_0BH@JLNPCLJG@MEMORYCHANGE_DETECTION?$AA@ 004129c4     HackServerProtocol.obj
+ 0002:000009dc       ??_C@_0BB@JKCBFLMB@WINDOW_DETECTION?$AA@ 004129dc     HackServerProtocol.obj
+ 0002:000009f0       ??_C@_0BA@MJLLBJJH@MACRO_DETECTION?$AA@ 004129f0     HackServerProtocol.obj
+ 0002:00000a00       ??_C@_0BD@HJMECIHL@DEBUGGER_DETECTION?$AA@ 00412a00     HackServerProtocol.obj
+ 0002:00000a14       ??_C@_0BD@DICHKBOJ@VALKYRIA_DETECTION?$AA@ 00412a14     HackServerProtocol.obj
+ 0002:00000a28       ??_C@_0CK@LFAEGELO@?$FLHackDetected?$FN?5Valkyria?5detected@ 00412a28     HackServerProtocol.obj
+ 0002:00000a54       ??_C@_0BC@KNBGAMGO@DEFAULT_DETECTION?$AA@ 00412a54     HackServerProtocol.obj
+ 0002:00000a68       ??_C@_0GK@CPLCDGFK@?$FLHackDetected?$FN?$FL?$CFs?$FN?$FL?$CFs?$FN?5IpAddress@ 00412a68     HackServerProtocol.obj
+ 0002:00000ad4       ??_C@_0BB@PLHKFLAD@Cleaning?5Session?$AA@ 00412ad4     HidManager.obj
+ 0002:00000ae8       ??_C@_0EG@KJBOJBPE@Temporary?5hardware?5bans?5successf@ 00412ae8     HidManager.obj
+ 0002:00000b30       ??_C@_0BM@PAPJHAGI@invalid?5map?1set?$DMT?$DO?5iterator?$AA@ 00412b30     HidManager.obj
+ 0002:00000b4c       ??_C@_0BE@JONHPENG@map?1set?$DMT?$DO?5too?5long?$AA@ 00412b4c     HidManager.obj
+ 0002:00000b64       ??_7CHidManager@@6B@       00412b64     HidManager.obj
+ 0002:00000b68       ??_C@_0BI@CFPLBAOH@invalid?5string?5position?$AA@ 00412b68     HidManager.obj
+ 0002:00000b80       ??_C@_0BA@JFNIOLAK@string?5too?5long?$AA@ 00412b80     HidManager.obj
+ 0002:00000b90       ??_C@_0CE@FFCMDLPC@FLOOD?5ATTEMPT?5DETECTED?5?9?5BAN?5IP?3@ 00412b90     IpManager.obj
+ 0002:00000bb4       ??_C@_0BA@NABBKIPD@IP?5IS?5UNBAN?3?5?$CFs?$AA@ 00412bb4     IpManager.obj
+ 0002:00000bc8       ??_7CIpManager@@6B@        00412bc8     IpManager.obj
+ 0002:00000bcc       ??_C@_0BI@GMMPBNOK@?4?2?$CFs?2?$CF04d?9?$CF02d?9?$CF02d?4txt?$AA@ 00412bcc     Log.obj
+ 0002:00000be4       ??_C@_0BE@KLKJJEKO@?$CF02d?3?$CF02d?3?$CF02d?5?$CFs?$AN?6?$AA@ 00412be4     Log.obj
+ 0002:00000bfc       ??_7CLog@@6B@              00412bfc     Log.obj
+ 0002:00000c00       ??_C@_02DKCKIIND@?$CFs?$AA@ 00412c00     MemScript.obj
+ 0002:00000c04       ??_C@_0BC@JAIHNJEB@?$CFs?5file?5not?5found?$AA@ 00412c04     MemScript.obj
+ 0002:00000c18       ??_C@_02EMFKHFLK@?$CFX?$AA@ 00412c18     MemScript.obj
+ 0002:00000c20       ??_7CMemScript@@6B@        00412c20     MemScript.obj
+ 0002:00000c24       ??_C@_01NBENCBCI@?$CK?$AA@ 00412c24     MemScript.obj
+ 0002:00000c28       ??_C@_02DPKJAMEF@?$CFd?$AA@ 00412c28     ProcessListInfo.obj
+ 0002:00000c2c       ??_C@_08FJLCGBHA@DumpList?$AA@ 00412c2c     ProcessListInfo.obj
+ 0002:00000c38       ??_C@_03OFAPEBGM@?$CFs?6?$AA@ 00412c38     ProcessListInfo.obj
+ 0002:00000c3c       ??_C@_0CM@NILOLEJC@?4?2DumpList?2?$FL?$CF02d?9?$CF02d?9?$CF04d?9?$CFd?$FN?5D@ 00412c3c     ProcessListInfo.obj
+ 0002:00000c68       ??_C@_01MCMALHOG@a?$AA@    00412c68     ProcessListInfo.obj
+ 0002:00000c6c       ??_C@_0BC@CMEOCNJO@Total?5process?3?5?$CFd?$AA@ 00412c6c     ProcessListInfo.obj
+ 0002:00000c80       ??_C@_0O@PDEHOHG@MHPDetect?4dll?$AA@ 00412c80     ProcessManager.obj
+ 0002:00000c90       ??_C@_0P@FMNHLPJL@GameServer?4exe?$AA@ 00412c90     ProcessManager.obj
+ 0002:00000ca0       ??_C@_0DH@OKPNJEPL@?$FLProcessManager?$FN?$FL?$CFd?$FN?$FL?$CFs?$FN?5Could?5n@ 00412ca0     ProcessManager.obj
+ 0002:00000cd8       ??_C@_0DE@OCAIHMCF@?$FLProcessManager?$FN?$FL?$CFd?$FN?$FL?$CFs?$FN?5Initial@ 00412cd8     ProcessManager.obj
+ 0002:00000d0c       ??_C@_0N@LOMLCOFC@LoadLibraryA?$AA@ 00412d0c     ProcessManager.obj
+ 0002:00000d1c       ??_C@_08FGMADGLH@XTMPID?$CFd?$AA@ 00412d1c     ProcessManager.obj
+ 0002:00000d2c       ??_7CProcessManager@@6B@   00412d2c     ProcessManager.obj
+ 0002:00000d30       ??_C@_0N@MDJJJHMB@kernel32?4dll?$AA@ 00412d30     ProcessManager.obj
+ 0002:00000d40       ??_C@_0BC@KBDMBKEH@deque?$DMT?$DO?5too?5long?$AA@ 00412d40     Queue.obj
+ 0002:00000d58       ??_7CQueue@@6B@            00412d58     Queue.obj
+ 0002:00000d5c       ??_C@_0DD@IFPOHPKP@?$FLDatabase?$FN?5Please?5wait?5for?5the?5c@ 00412d5c     ReadFiles.obj
+ 0002:00000d90       ??_C@_0DD@MABLLOCB@?$FLDatabase?$FN?5Please?5wait?5for?5the?5c@ 00412d90     ReadFiles.obj
+ 0002:00000dc4       ??_C@_0BN@EBEDDLDK@?4?2Data?2Internal?4List?4part?4db?$AA@ 00412dc4     ReadFiles.obj
+ 0002:00000de4       ??_C@_0BI@IBLGPMF@?4?2Data?2Internal?4List?4db?$AA@ 00412de4     ReadFiles.obj
+ 0002:00000dfc       ??_C@_02GMLFBBN@wb?$AA@    00412dfc     ReadFiles.obj
+ 0002:00000e00       ??_C@_0CN@BJABNFJC@?$FLDatabase?$FN?5Could?5not?5update?5list@ 00412e00     ReadFiles.obj
+ 0002:00000e30       ??_C@_0CA@PGEBOEKD@?$FLDatabase?$FN?5Updated?5successfully?$AA@ 00412e30     ReadFiles.obj
+ 0002:00000e54       ??_7CReadFiles@@6B@        00412e54     ReadFiles.obj
+ 0002:00000e58       ??_C@_0M@LGMEACEF@ScreenShots?$AA@ 00412e58     ScreenShot.obj
+ 0002:00000e64       ??_C@_0DA@HPDKPJD@ERROR?$CB?5Buffer?5length?5bigger?5then@ 00412e64     ScreenShot.obj
+ 0002:00000e94       ??_C@_1BK@IBJIDAPJ@?$AAA?$AAc?$AAc?$AAo?$AAu?$AAn?$AAt?$AA?3?$AA?5?$AA?$CF?$AAh?$AAs?$AA?$AA@ 00412e94     ScreenShot.obj
+ 0002:00000eb0       ??_C@_1BE@HBDOOMOK@?$AAN?$AAa?$AAm?$AAe?$AA?3?$AA?5?$AA?$CF?$AAh?$AAs?$AA?$AA@ 00412eb0     ScreenShot.obj
+ 0002:00000ec4       ??_C@_1CA@KIBCBGHH@?$AAI?$AAP?$AA?5?$AAA?$AAd?$AAd?$AAr?$AAe?$AAs?$AAs?$AA?3?$AA?5?$AA?$CF?$AAh?$AAs?$AA?$AA@ 00412ec4     ScreenShot.obj
+ 0002:00000ee4       ??_C@_1BE@JMPMDMFD@?$AAH?$AAw?$AAi?$AAd?$AA?3?$AA?5?$AA?$CF?$AAh?$AAs?$AA?$AA@ 00412ee4     ScreenShot.obj
+ 0002:00000ef8       ??_C@_1M@KAKMLIHO@?$AAA?$AAr?$AAi?$AAa?$AAl?$AA?$AA@ 00412ef8     ScreenShot.obj
+ 0002:00000f04       ??_C@_0DJ@PFLGIIJF@ScreenShots?2?$CFs?9?$CFs?2?$CF04d?9?$CF02d?9?$CF02d@ 00412f04     ScreenShot.obj
+ 0002:00000f40       ??_C@_0BC@HIADGHMI@ScreenShots?2?$CFs?9?$CFs?$AA@ 00412f40     ScreenShot.obj
+ 0002:00000f54       ??_C@_0CC@HBEOGDGO@?$FLSendScreenShotRequest?$FN?5data?5sen@ 00412f54     ScreenShot.obj
+ 0002:00000f78       ??_C@_0EE@IIAMFLJI@?$FLSendScreenShotRequest?$FN?5Another?5@ 00412f78     ScreenShot.obj
+ 0002:00000fbc       ??_C@_13PJJBFPED@?$AA?$DL?$AA?$AA@ 00412fbc     ScreenShot.obj
+ 0002:00000fc4       ??_7Brush@Gdiplus@@6B@     00412fc4     ScreenShot.obj
+ 0002:00000fd0       ??_7Bitmap@Gdiplus@@6B@    00412fd0     ScreenShot.obj
+ 0002:00000fdc       ??_7Image@Gdiplus@@6B@     00412fdc     ScreenShot.obj
+ 0002:00000fe8       ??_7SolidBrush@Gdiplus@@6B@ 00412fe8     ScreenShot.obj
+ 0002:00000ff4       ??_7CImage@ATL@@6B@        00412ff4     ScreenShot.obj
+ 0002:00000ff8       ??_C@_08GAOCMOKB@logo?4png?$AA@ 00412ff8     ScreenShow.obj
+ 0002:00001004       ??_C@_1BA@GHMHOMKD@?$AAF?$AAP?$AAS?$AA?3?$AA?5?$AA?$CF?$AAd?$AA?$AA@ 00413004     ScreenShow.obj
+ 0002:00001014       ??_C@_1CI@GALJPOFB@?$AAP?$AAi?$AAc?$AAt?$AAu?$AAr?$AAe?$AA?5?$AAQ?$AAu?$AAa?$AAl?$AAi?$AAt?$AAy?$AA?3?$AA?5?$AA?$CF?$AAd?$AA?$AA@ 00413014     ScreenShow.obj
+ 0002:00001040       ??_7CScreenShow@@6B@       00413040     ScreenShow.obj
+ 0002:00001044       ??_C@_05MOECANKB@Times?$AA@ 00413044     ServerDisplayer.obj
+ 0002:0000104c       ??_C@_0N@CMKNAGIL@STANDBY?5MODE?$AA@ 0041304c     ServerDisplayer.obj
+ 0002:0000105c       ??_C@_0M@LJNHMBOJ@ACTIVE?5MODE?$AA@ 0041305c     ServerDisplayer.obj
+ 0002:00001068       ??_C@_03MLIHNEFJ@LOG?$AA@  00413068     ServerDisplayer.obj
+ 0002:0000106c       ??_C@_0N@PGGOIJIB@LOG?2HACK_LOG?$AA@ 0041306c     ServerDisplayer.obj
+ 0002:0000107c       ??_C@_0CN@BBINOGFO@?$FLGameShield?5v4?40?5?$CL?5Desktop?5?$CL?5Mem@ 0041307c     ServerDisplayer.obj
+ 0002:000010ac       ??_C@_0BH@NNGBPGPJ@?$FL?$CFs?$FN?5?$CFs?5?$CIOnlines?5?3?5?$CFd?$CJ?$AA@ 004130ac     ServerDisplayer.obj
+ 0002:000010c8       ??_7CServerDisplayer@@6B@  004130c8     ServerDisplayer.obj
+ 0002:000010cc       ??_C@_0BA@GGPBHHI@?4?2Data?2info?4xtm?$AA@ 004130cc     ServerInfo.obj
+ 0002:000010dc       ??_C@_0CF@FGEOHKBM@?$FLConfigs?$FN?5Config?5loaded?5successf@ 004130dc     ServerInfo.obj
+ 0002:00001104       ??_C@_0CM@NBBECAPP@?$FLConfigs?$FN?5Memory?5Module?5loaded?5s@ 00413104     ServerInfo.obj
+ 0002:00001130       ??_C@_0CP@KAFGBJOK@?$FLConfigs?$FN?5Injeccion?5Module?5loade@ 00413130     ServerInfo.obj
+ 0002:00001160       ??_C@_0CN@GKPLIJPP@?$FLConfigs?$FN?5Packets?5Module?5loaded?5@ 00413160     ServerInfo.obj
+ 0002:00001190       ??_C@_0CL@BMKPNKGM@?$FLConfigs?$FN?5Class?5Module?5loaded?5su@ 00413190     ServerInfo.obj
+ 0002:000011bc       ??_C@_0CN@HLNGOBJI@?$FLConfigs?$FN?5Library?5Module?5loaded?5@ 004131bc     ServerInfo.obj
+ 0002:000011ec       ??_C@_0DD@DFJIJOJH@?$FLConfigs?$FN?5Graphic?5Speed?5Module?5l@ 004131ec     ServerInfo.obj
+ 0002:00001220       ??_C@_0DE@FJEEFION@?$FLConfigs?$FN?5Phisical?5Speed?5Module?5@ 00413220     ServerInfo.obj
+ 0002:00001254       ??_C@_0DE@HFPECGFA@?$FLConfigs?$FN?5Memory?5Edition?5Module?5@ 00413254     ServerInfo.obj
+ 0002:00001288       ??_C@_0CP@FOIHDABL@?$FLConfigs?$FN?5Anti?9DDoS?5Module?5loade@ 00413288     ServerInfo.obj
+ 0002:000012b8       ??_C@_0DA@JNJBNMFK@?$FLConfigs?$FN?5Anti?9Flood?5Module?5load@ 004132b8     ServerInfo.obj
+ 0002:000012e8       ??_C@_0CN@DHJBCLPG@?$FLConfigs?$FN?5Threads?5Module?5loaded?5@ 004132e8     ServerInfo.obj
+ 0002:00001318       ??_C@_0BE@KKEAOHDK@?4?2Data?2Dump?4List?4db?$AA@ 00413318     ServerInfo.obj
+ 0002:0000132c       ??_C@_0CH@GNKMNDNE@?$FLConfigs?$FN?5HackList?5loaded?5succes@ 0041332c     ServerInfo.obj
+ 0002:00001354       ??_C@_0BE@LHGBJEJC@?4?2Data?2Archivos?4txt?$AA@ 00413354     ServerInfo.obj
+ 0002:00001368       ??_C@_0CO@KKJLONLM@?$FLConfigs?$FN?5FilesProtection?5loaded@ 00413368     ServerInfo.obj
+ 0002:00001398       ??_C@_0BI@OIMPDGCI@?4?2Data?2ListaInterna?4sys?$AA@ 00413398     ServerInfo.obj
+ 0002:000013b0       ??_C@_0CL@HNDMMKFM@?$FLConfigs?$FN?5InternalList?5loaded?5su@ 004133b0     ServerInfo.obj
+ 0002:000013dc       ??_C@_0BG@MOKOINNO@?4?2Data?2Window?4List?4db?$AA@ 004133dc     ServerInfo.obj
+ 0002:000013f4       ??_C@_0CH@OIOBHIAN@?$FLConfigs?$FN?5NameList?5loaded?5succes@ 004133f4     ServerInfo.obj
+ 0002:0000141c       ??_C@_0O@IILJMOI@?4?2BanList?4txt?$AA@ 0041341c     ServerInfo.obj
+ 0002:0000142c       ??_C@_0CG@JIHLFNML@?$FLConfigs?$FN?5BANLIST?5loaded?5success@ 0041342c     ServerInfo.obj
+ 0002:00001454       ??_C@_0N@LPMLCGKE@CustomerName?$AA@ 00413454     ServerInfo.obj
+ 0002:00001464       ??_C@_0BD@OPHDIACD@CustomerHardwareId?$AA@ 00413464     ServerInfo.obj
+ 0002:00001478       ??_C@_0O@LJBOPJNH@MHPServerPort?$AA@ 00413478     ServerInfo.obj
+ 0002:00001488       ??_C@_0BA@JDDAMLGO@MaxIpConnection?$AA@ 00413488     ServerInfo.obj
+ 0002:00001498       ??_C@_0L@NNDIJKLJ@EncDecKey1?$AA@ 00413498     ServerInfo.obj
+ 0002:000014a4       ??_C@_0L@PGBFMJHK@EncDecKey2?$AA@ 004134a4     ServerInfo.obj
+ 0002:000014b0       ??_C@_0BA@JMOPBCGJ@EncDecSetNumber?$AA@ 004134b0     ServerInfo.obj
+ 0002:000014c0       ??_C@_0BG@PMDCDLOE@MultiSesionHardwareId?$AA@ 004134c0     ServerInfo.obj
+ 0002:000014d8       ??_C@_0BC@LEEAKGHA@EnableFloodSystem?$AA@ 004134d8     ServerInfo.obj
+ 0002:000014ec       ??_C@_0BG@JEGCEPGB@IpLimitConnectionTime?$AA@ 004134ec     ServerInfo.obj
+ 0002:00001504       ??_C@_0BI@NPFPPFKF@IpConnectionBlockedTime?$AA@ 00413504     ServerInfo.obj
+ 0002:0000151c       ??_C@_0BM@GLCKOKGP@IpMaxAttemptsConnectionTime?$AA@ 0041351c     ServerInfo.obj
+ 0002:00001538       ??_C@_0N@EKELMDHA@LauncherType?$AA@ 00413538     ServerInfo.obj
+ 0002:00001548       ??_C@_0BB@ICHBNECE@LauncherInstance?$AA@ 00413548     ServerInfo.obj
+ 0002:0000155c       ??_C@_0M@KEADAHKE@LauncherCRC?$AA@ 0041355c     ServerInfo.obj
+ 0002:00001568       ??_C@_0N@OBEIADAA@LauncherName?$AA@ 00413568     ServerInfo.obj
+ 0002:00001578       ??_C@_0L@PCEIFJD@ClientName?$AA@ 00413578     ServerInfo.obj
+ 0002:00001584       ??_C@_0O@LIGPJPLC@ClientNameCRC?$AA@ 00413584     ServerInfo.obj
+ 0002:00001594       ??_C@_0O@DNEICACF@ClientVersion?$AA@ 00413594     ServerInfo.obj
+ 0002:000015a4       ??_C@_0N@HCBNCEBN@ClientSerial?$AA@ 004135a4     ServerInfo.obj
+ 0002:000015b4       ??_C@_0BC@NNFEGJBC@DetectionLockTime?$AA@ 004135b4     ServerInfo.obj
+ 0002:000015c8       ??_C@_0BA@KNDGCGML@InternalVersion?$AA@ 004135c8     ServerInfo.obj
+ 0002:000015d8       ??_C@_0BA@NOBAJADJ@ReconnectSwitch?$AA@ 004135d8     ServerInfo.obj
+ 0002:000015e8       ??_C@_0BC@KKNLIOHP@MemoryGuardSwitch?$AA@ 004135e8     ServerInfo.obj
+ 0002:000015fc       ??_C@_0BC@NFEIPKJA@MemoryGuardNumber?$AA@ 004135fc     ServerInfo.obj
+ 0002:00001610       ??_C@_0BD@DJDGGNKP@MacroProtectSwitch?$AA@ 00413610     ServerInfo.obj
+ 0002:00001624       ??_C@_0BD@EGKFBJEA@MacroProtectNumber?$AA@ 00413624     ServerInfo.obj
+ 0002:00001638       ??_C@_0P@EENCNOCE@MacroProtectS6?$AA@ 00413638     ServerInfo.obj
+ 0002:00001648       ??_C@_0P@LFEFEDNJ@MemoryAddress1?$AA@ 00413648     ServerInfo.obj
+ 0002:00001658       ??_C@_0P@JOGIBABK@MemoryAddress2?$AA@ 00413658     ServerInfo.obj
+ 0002:00001668       ??_C@_0P@IHHDCBFL@MemoryAddress3?$AA@ 00413668     ServerInfo.obj
+ 0002:00001678       ??_C@_0P@MIDCLHJM@MemoryAddress4?$AA@ 00413678     ServerInfo.obj
+ 0002:00001688       ??_C@_0P@NBCJIGNN@MemoryAddress5?$AA@ 00413688     ServerInfo.obj
+ 0002:00001698       ??_C@_0P@PKAENFBO@MemoryAddress6?$AA@ 00413698     ServerInfo.obj
+ 0002:000016a8       ??_C@_0P@ODBPOEFP@MemoryAddress7?$AA@ 004136a8     ServerInfo.obj
+ 0002:000016b8       ??_C@_0P@GEIHPIJA@MemoryAddress8?$AA@ 004136b8     ServerInfo.obj
+ 0002:000016cc       ??_7CServerInfo@@6B@       004136cc     ServerInfo.obj
+ 0002:000016d0       ??_C@_0CM@KAMGEMDF@?$FLSocketManager?$FN?5Server?5started?5a@ 004136d0     SocketManager.obj
+ 0002:000016fc       ??_C@_0DC@MEBPENFN@?$FLSocketManager?$FN?5WSASocket?$CI?$CJ?5fail@ 004136fc     SocketManager.obj
+ 0002:00001730       ??_C@_0CN@DCBCKDHG@?$FLSocketManager?$FN?5bind?$CI?$CJ?5failed?5wi@ 00413730     SocketManager.obj
+ 0002:00001760       ??_C@_0CP@LJKHBDGD@?$FLSocketManager?$FN?5listen?$CI?$CJ?5failed?5@ 00413760     SocketManager.obj
+ 0002:00001790       ??_C@_0CP@PPBDHCDJ@?$FLSocketManager?$FN?5socket?$CI?$CJ?5failed?5@ 00413790     SocketManager.obj
+ 0002:000017c0       ??_C@_0DP@ICIIFOIO@?$FLSocketManager?$FN?5CreateIoCompleti@ 004137c0     SocketManager.obj
+ 0002:00001800       ??_C@_0DF@KLMIPFHB@?$FLSocketManager?$FN?5CreateThread?$CI?$CJ?5f@ 00413800     SocketManager.obj
+ 0002:00001838       ??_C@_0DK@HBHPIDEM@?$FLSocketManager?$FN?5SetThreadPriorit@ 00413838     SocketManager.obj
+ 0002:00001874       ??_C@_0DI@NJICOKBD@?$FLSocketManager?$FN?5CreateSemaphore?$CI@ 00413874     SocketManager.obj
+ 0002:000018ac       ??_C@_0DO@CPEPCKLC@?$FLSocketManager?$FN?5Protocol?5header?5@ 004138ac     SocketManager.obj
+ 0002:000018f0       ??_C@_0FA@ICNFAKBF@?$FLSocketManager?$FN?5Protocol?5size?5er@ 004138f0     SocketManager.obj
+ 0002:00001940       ??_C@_0DM@MLAHEMEP@?$FLSocketManager?$FN?5Max?5msg?5size?5?$CITy@ 00413940     SocketManager.obj
+ 0002:0000197c       ??_C@_0DM@JDBJOFGH@?$FLSocketManager?$FN?5Max?5msg?5size?5?$CITy@ 0041397c     SocketManager.obj
+ 0002:000019b8       ??_C@_0DA@BOBEBEJH@?$FLSocketManager?$FN?5WSASend?$CI?$CJ?5failed@ 004139b8     SocketManager.obj
+ 0002:000019e8       ??_C@_0DE@KNKIHNML@?$FLSocketManager?$FN?5closesocket?$CI?$CJ?5fa@ 004139e8     SocketManager.obj
+ 0002:00001a1c       ??_C@_0DA@PEEHLCK@?$FLSocketManager?$FN?5WSARecv?$CI?$CJ?5failed@ 00413a1c     SocketManager.obj
+ 0002:00001a4c       ??_C@_0DC@KHPBLODJ@?$FLSocketManager?$FN?5WSAAccept?$CI?$CJ?5fail@ 00413a4c     SocketManager.obj
+ 0002:00001a80       ??_C@_0EC@ENPGAEAB@?$FLSocketManager?$FN?5GetQueuedComplet@ 00413a80     SocketManager.obj
+ 0002:00001ac4       ??_C@_0DM@LIBLJDKP@?$FLSocketManager?$FN?5WaitForSingleObj@ 00413ac4     SocketManager.obj
+ 0002:00001b04       ??_7CSocketManager@@6B@    00413b04     SocketManager.obj
+ 0002:00001b08       ??_C@_05NAOIJFC@Error?$AA@ 00413b08     Util.obj
+ 0002:00001b10       ??_C@_07HIDEBALK@?$CF?48s?5?$CFs?$AA@ 00413b10     Util.obj
+ 0002:00001b18       __real@bf800000            00413b18      CIL library: CIL module
+ 0002:00001b1c       __real@41980000            00413b1c      CIL library: CIL module
+ 0002:00001b20       __real@41800000            00413b20      CIL library: CIL module
+ 0002:00001b24       __real@42700000            00413b24      CIL library: CIL module
+ 0002:00001b28       __real@42200000            00413b28      CIL library: CIL module
+ 0002:00001b2c       __real@41a00000            00413b2c      CIL library: CIL module
+ 0002:00001b30       __load_config_used         00413b30     MSVCRT:loadcfg.obj
+ 0002:00001c0c       ??_R4type_info@@6B@        00413c0c     MSVCRT:ti_inst.obj
+ 0002:00001c20       ??_R3type_info@@8          00413c20     MSVCRT:ti_inst.obj
+ 0002:00001c30       ??_R2type_info@@8          00413c30     MSVCRT:ti_inst.obj
+ 0002:00001c38       ??_R1A@?0A@EA@type_info@@8 00413c38     MSVCRT:ti_inst.obj
+ 0002:00001c54       ??_R4CAuthenticate@@6B@    00413c54     Authenticate.obj
+ 0002:00001c68       ??_R3CAuthenticate@@8      00413c68     Authenticate.obj
+ 0002:00001c78       ??_R2CAuthenticate@@8      00413c78     Authenticate.obj
+ 0002:00001c80       ??_R1A@?0A@EA@CAuthenticate@@8 00413c80     Authenticate.obj
+ 0002:00001c9c       ??_R4bad_alloc@std@@6B@    00413c9c     BlackList.obj
+ 0002:00001cb0       ??_R3bad_alloc@std@@8      00413cb0     BlackList.obj
+ 0002:00001cc0       ??_R2bad_alloc@std@@8      00413cc0     BlackList.obj
+ 0002:00001ccc       ??_R1A@?0A@EA@exception@std@@8 00413ccc     BlackList.obj
+ 0002:00001ce8       ??_R3exception@std@@8      00413ce8     BlackList.obj
+ 0002:00001cf8       ??_R2exception@std@@8      00413cf8     BlackList.obj
+ 0002:00001d00       ??_R1A@?0A@EA@bad_alloc@std@@8 00413d00     BlackList.obj
+ 0002:00001d1c       ??_R4CBlackList@@6B@       00413d1c     BlackList.obj
+ 0002:00001d30       ??_R3CBlackList@@8         00413d30     BlackList.obj
+ 0002:00001d40       ??_R2CBlackList@@8         00413d40     BlackList.obj
+ 0002:00001d48       ??_R1A@?0A@EA@CBlackList@@8 00413d48     BlackList.obj
+ 0002:00001d64       ??_R4CClientManager@@6B@   00413d64     ClientManager.obj
+ 0002:00001d78       ??_R3CClientManager@@8     00413d78     ClientManager.obj
+ 0002:00001d88       ??_R2CClientManager@@8     00413d88     ClientManager.obj
+ 0002:00001d90       ??_R1A@?0A@EA@CClientManager@@8 00413d90     ClientManager.obj
+ 0002:00001dac       ??_R4CCriticalSection@@6B@ 00413dac     CriticalSection.obj
+ 0002:00001dc0       ??_R3CCriticalSection@@8   00413dc0     CriticalSection.obj
+ 0002:00001dd0       ??_R2CCriticalSection@@8   00413dd0     CriticalSection.obj
+ 0002:00001dd8       ??_R1A@?0A@EA@CCriticalSection@@8 00413dd8     CriticalSection.obj
+ 0002:00001df4       ??_R4CHidManager@@6B@      00413df4     HidManager.obj
+ 0002:00001e08       ??_R3CHidManager@@8        00413e08     HidManager.obj
+ 0002:00001e18       ??_R2CHidManager@@8        00413e18     HidManager.obj
+ 0002:00001e20       ??_R1A@?0A@EA@CHidManager@@8 00413e20     HidManager.obj
+ 0002:00001e3c       ??_R4CIpManager@@6B@       00413e3c     IpManager.obj
+ 0002:00001e50       ??_R3CIpManager@@8         00413e50     IpManager.obj
+ 0002:00001e60       ??_R2CIpManager@@8         00413e60     IpManager.obj
+ 0002:00001e68       ??_R1A@?0A@EA@CIpManager@@8 00413e68     IpManager.obj
+ 0002:00001e84       ??_R4CLog@@6B@             00413e84     Log.obj
+ 0002:00001e98       ??_R3CLog@@8               00413e98     Log.obj
+ 0002:00001ea8       ??_R2CLog@@8               00413ea8     Log.obj
+ 0002:00001eb0       ??_R1A@?0A@EA@CLog@@8      00413eb0     Log.obj
+ 0002:00001ecc       ??_R4CMemScript@@6B@       00413ecc     MemScript.obj
+ 0002:00001ee0       ??_R3CMemScript@@8         00413ee0     MemScript.obj
+ 0002:00001ef0       ??_R2CMemScript@@8         00413ef0     MemScript.obj
+ 0002:00001ef8       ??_R1A@?0A@EA@CMemScript@@8 00413ef8     MemScript.obj
+ 0002:00001f14       ??_R4CProcessManager@@6B@  00413f14     ProcessManager.obj
+ 0002:00001f28       ??_R3CProcessManager@@8    00413f28     ProcessManager.obj
+ 0002:00001f38       ??_R2CProcessManager@@8    00413f38     ProcessManager.obj
+ 0002:00001f40       ??_R1A@?0A@EA@CProcessManager@@8 00413f40     ProcessManager.obj
+ 0002:00001f5c       ??_R4CQueue@@6B@           00413f5c     Queue.obj
+ 0002:00001f70       ??_R3CQueue@@8             00413f70     Queue.obj
+ 0002:00001f80       ??_R2CQueue@@8             00413f80     Queue.obj
+ 0002:00001f88       ??_R1A@?0A@EA@CQueue@@8    00413f88     Queue.obj
+ 0002:00001fa4       ??_R4CReadFiles@@6B@       00413fa4     ReadFiles.obj
+ 0002:00001fb8       ??_R3CReadFiles@@8         00413fb8     ReadFiles.obj
+ 0002:00001fc8       ??_R2CReadFiles@@8         00413fc8     ReadFiles.obj
+ 0002:00001fd0       ??_R1A@?0A@EA@CReadFiles@@8 00413fd0     ReadFiles.obj
+ 0002:00001fec       ??_R4CImage@ATL@@6B@       00413fec     ScreenShot.obj
+ 0002:00002000       ??_R3CImage@ATL@@8         00414000     ScreenShot.obj
+ 0002:00002010       ??_R2CImage@ATL@@8         00414010     ScreenShot.obj
+ 0002:00002018       ??_R1A@?0A@EA@CImage@ATL@@8 00414018     ScreenShot.obj
+ 0002:00002034       ??_R4SolidBrush@Gdiplus@@6B@ 00414034     ScreenShot.obj
+ 0002:00002048       ??_R3SolidBrush@Gdiplus@@8 00414048     ScreenShot.obj
+ 0002:00002058       ??_R2SolidBrush@Gdiplus@@8 00414058     ScreenShot.obj
+ 0002:00002068       ??_R1A@?0A@EA@SolidBrush@Gdiplus@@8 00414068     ScreenShot.obj
+ 0002:00002084       ??_R4Image@Gdiplus@@6B@    00414084     ScreenShot.obj
+ 0002:00002098       ??_R4Bitmap@Gdiplus@@6B@   00414098     ScreenShot.obj
+ 0002:000020ac       ??_R3Bitmap@Gdiplus@@8     004140ac     ScreenShot.obj
+ 0002:000020bc       ??_R2Bitmap@Gdiplus@@8     004140bc     ScreenShot.obj
+ 0002:000020cc       ??_R1A@?0A@EA@Image@Gdiplus@@8 004140cc     ScreenShot.obj
+ 0002:000020e8       ??_R3Image@Gdiplus@@8      004140e8     ScreenShot.obj
+ 0002:000020f8       ??_R2Image@Gdiplus@@8      004140f8     ScreenShot.obj
+ 0002:00002104       ??_R1A@?0A@EA@Bitmap@Gdiplus@@8 00414104     ScreenShot.obj
+ 0002:00002120       ??_R4Brush@Gdiplus@@6B@    00414120     ScreenShot.obj
+ 0002:00002134       ??_R3Brush@Gdiplus@@8      00414134     ScreenShot.obj
+ 0002:00002144       ??_R2Brush@Gdiplus@@8      00414144     ScreenShot.obj
+ 0002:00002150       ??_R13?0A@EA@GdiplusBase@Gdiplus@@8 00414150     ScreenShot.obj
+ 0002:0000216c       ??_R3GdiplusBase@Gdiplus@@8 0041416c     ScreenShot.obj
+ 0002:0000217c       ??_R2GdiplusBase@Gdiplus@@8 0041417c     ScreenShot.obj
+ 0002:00002184       ??_R1A@?0A@EA@GdiplusBase@Gdiplus@@8 00414184     ScreenShot.obj
+ 0002:000021a0       ??_R1A@?0A@EA@Brush@Gdiplus@@8 004141a0     ScreenShot.obj
+ 0002:000021bc       ??_R4CScreenShow@@6B@      004141bc     ScreenShow.obj
+ 0002:000021d0       ??_R3CScreenShow@@8        004141d0     ScreenShow.obj
+ 0002:000021e0       ??_R2CScreenShow@@8        004141e0     ScreenShow.obj
+ 0002:000021e8       ??_R1A@?0A@EA@CScreenShow@@8 004141e8     ScreenShow.obj
+ 0002:00002204       ??_R4CServerDisplayer@@6B@ 00414204     ServerDisplayer.obj
+ 0002:00002218       ??_R3CServerDisplayer@@8   00414218     ServerDisplayer.obj
+ 0002:00002228       ??_R2CServerDisplayer@@8   00414228     ServerDisplayer.obj
+ 0002:00002230       ??_R1A@?0A@EA@CServerDisplayer@@8 00414230     ServerDisplayer.obj
+ 0002:0000224c       ??_R4CServerInfo@@6B@      0041424c     ServerInfo.obj
+ 0002:00002260       ??_R3CServerInfo@@8        00414260     ServerInfo.obj
+ 0002:00002270       ??_R2CServerInfo@@8        00414270     ServerInfo.obj
+ 0002:00002278       ??_R1A@?0A@EA@CServerInfo@@8 00414278     ServerInfo.obj
+ 0002:00002294       ??_R4CSocketManager@@6B@   00414294     SocketManager.obj
+ 0002:000022a8       ??_R3CSocketManager@@8     004142a8     SocketManager.obj
+ 0002:000022b8       ??_R2CSocketManager@@8     004142b8     SocketManager.obj
+ 0002:000022c0       ??_R1A@?0A@EA@CSocketManager@@8 004142c0     SocketManager.obj
+ 0002:000022e0       ___safe_se_handler_table   004142e0     <linker-defined>
+ 0002:0000236c       ___rtc_iaa                 0041436c     MSVCRT:_initsect_.obj
+ 0002:00002370       ___rtc_izz                 00414370     MSVCRT:_initsect_.obj
+ 0002:00002374       ___rtc_taa                 00414374     MSVCRT:_initsect_.obj
+ 0002:00002378       ___rtc_tzz                 00414378     MSVCRT:_initsect_.obj
+ 0002:0000243c       __CT??_R0?AVexception@std@@@8??0exception@std@@QAE@ABV01@@Z12 0041443c     BlackList.obj
+ 0002:00002458       __CT??_R0?AVbad_alloc@std@@@8??0bad_alloc@std@@QAE@ABV01@@Z12 00414458     BlackList.obj
+ 0002:00002474       __CTA2?AVbad_alloc@std@@   00414474     BlackList.obj
+ 0002:00002480       __TI2?AVbad_alloc@std@@    00414480     BlackList.obj
+ 0002:00002490       __CT??_R0H@84              00414490     MemScript.obj
+ 0002:000024ac       __CTA1H                    004144ac     MemScript.obj
+ 0002:000024b4       __TI1H                     004144b4     MemScript.obj
+ 0002:000024c4       __CT??_R0?AVCAtlException@ATL@@@84 004144c4     ScreenShot.obj
+ 0002:000024e0       __CTA1?AVCAtlException@ATL@@ 004144e0     ScreenShot.obj
+ 0002:000024e8       __TI1?AVCAtlException@ATL@@ 004144e8     ScreenShot.obj
+ 0002:00002e38       __IMPORT_DESCRIPTOR_KERNEL32 00414e38     kernel32:KERNEL32.dll
+ 0002:00002e4c       __IMPORT_DESCRIPTOR_USER32 00414e4c     user32:USER32.dll
+ 0002:00002e60       __IMPORT_DESCRIPTOR_GDI32  00414e60     gdi32:GDI32.dll
+ 0002:00002e74       __IMPORT_DESCRIPTOR_ole32  00414e74     ole32:ole32.dll
+ 0002:00002e88       __IMPORT_DESCRIPTOR_MSVCP100 00414e88     msvcprt:MSVCP100.dll
+ 0002:00002e9c       __IMPORT_DESCRIPTOR_SHLWAPI 00414e9c     shlwapi:SHLWAPI.dll
+ 0002:00002eb0       __IMPORT_DESCRIPTOR_gdiplus 00414eb0     gdiplus:gdiplus.dll
+ 0002:00002ec4       __IMPORT_DESCRIPTOR_MSIMG32 00414ec4     msimg32:MSIMG32.dll
+ 0002:00002ed8       __IMPORT_DESCRIPTOR_COMCTL32 00414ed8     comctl32:COMCTL32.dll
+ 0002:00002eec       __IMPORT_DESCRIPTOR_WS2_32 00414eec     ws2_32:WS2_32.dll
+ 0002:00002f00       __IMPORT_DESCRIPTOR_PSAPI  00414f00     Psapi:PSAPI.DLL
+ 0002:00002f14       __IMPORT_DESCRIPTOR_MSVCR100 00414f14     MSVCRT:MSVCR100.dll
+ 0002:00002f28       __NULL_IMPORT_DESCRIPTOR   00414f28     kernel32:KERNEL32.dll
+ 0003:00000000       ?g_strmgr@ATL@@3VCAtlStringMgr@1@A 00417000     atls:atlstr.obj
+ 0003:0000001c       ??_R0?AVtype_info@@@8      0041701c     MSVCRT:ti_inst.obj
+ 0003:00000034       ___security_cookie         00417034     MSVCRT:gs_cookie.obj
+ 0003:00000038       ___security_cookie_complement 00417038     MSVCRT:gs_cookie.obj
+ 0003:00000040       ___native_dllmain_reason   00417040     MSVCRT:natstart.obj
+ 0003:00000044       ___native_vcclrit_reason   00417044     MSVCRT:natstart.obj
+ 0003:00000048       ___globallocalestatus      00417048     MSVCRT:xthdloc.obj
+ 0003:0000004c       ___defaultmatherr          0041704c     MSVCRT:merr.obj
+ 0003:00000050       ??_R0?AVCAuthenticate@@@8  00417050     Authenticate.obj
+ 0003:0000006c       ??_R0?AVCBlackList@@@8     0041706c     BlackList.obj
+ 0003:00000088       ??_R0?AVexception@std@@@8  00417088     BlackList.obj
+ 0003:000000a4       ??_R0?AVbad_alloc@std@@@8  004170a4     BlackList.obj
+ 0003:000000c0       ??_R0?AVCClientManager@@@8 004170c0     ClientManager.obj
+ 0003:000000e0       ??_R0?AVCCriticalSection@@@8 004170e0     CriticalSection.obj
+ 0003:00000100       ??_R0?AVCHidManager@@@8    00417100     HidManager.obj
+ 0003:0000011c       ??_R0?AVCIpManager@@@8     0041711c     IpManager.obj
+ 0003:00000138       ??_R0?AVCLog@@@8           00417138     Log.obj
+ 0003:0000014c       ??_R0?AVCMemScript@@@8     0041714c     MemScript.obj
+ 0003:00000168       ??_R0H@8                   00417168     MemScript.obj
+ 0003:00000174       ??_R0?AVCProcessManager@@@8 00417174     ProcessManager.obj
+ 0003:00000194       ??_R0?AVCQueue@@@8         00417194     Queue.obj
+ 0003:000001ac       ??_R0?AVCReadFiles@@@8     004171ac     ReadFiles.obj
+ 0003:000001c8       ??_R0?AVCImage@ATL@@@8     004171c8     ScreenShot.obj
+ 0003:000001e4       ??_R0?AVSolidBrush@Gdiplus@@@8 004171e4     ScreenShot.obj
+ 0003:00000208       ??_R0?AVImage@Gdiplus@@@8  00417208     ScreenShot.obj
+ 0003:00000224       ??_R0?AVBitmap@Gdiplus@@@8 00417224     ScreenShot.obj
+ 0003:00000244       ??_R0?AVGdiplusBase@Gdiplus@@@8 00417244     ScreenShot.obj
+ 0003:00000268       ??_R0?AVBrush@Gdiplus@@@8  00417268     ScreenShot.obj
+ 0003:00000284       ??_R0?AVCAtlException@ATL@@@8 00417284     ScreenShot.obj
+ 0003:000002a4       ??_R0?AVCScreenShow@@@8    004172a4     ScreenShow.obj
+ 0003:000002c0       ??_R0?AVCServerDisplayer@@@8 004172c0     ServerDisplayer.obj
+ 0003:000002e0       ??_R0?AVCServerInfo@@@8    004172e0     ServerInfo.obj
+ 0003:000002fc       ??_R0?AVCSocketManager@@@8 004172fc     SocketManager.obj
+ 0003:00000320       ?gAuthenticate@@3VCAuthenticate@@A 00417320     Authenticate.obj
+ 0003:00004358       ?gBlackList@@3VCBlackList@@A 0041b358     BlackList.obj
+ 0003:0000437c       ?gIpManager@@3VCIpManager@@A 0041b37c     IpManager.obj
+ 0003:00004390       ?gLog@@3VCLog@@A           0041b390     Log.obj
+ 0003:000047c0       ?gProcessListInfo@@3VCProcessListInfo@@A 0041b7c0     ProcessListInfo.obj
+ 0003:000047d8       ?gReadFiles@@3VCReadFiles@@A 0041b7d8     ReadFiles.obj
+ 0003:00004820       ?gServerInfo@@3VCServerInfo@@A 0041b820     ServerInfo.obj
+ 0003:000049a0       ?s_initGDIPlus@CImage@ATL@@0VCInitGDIPlus@12@A 0041b9a0     atls:atlimage2.obj
+ 0003:000049c4       ?s_cache@CImage@ATL@@0VCDCCache@12@A 0041b9c4     atls:atlimage.obj
+ 0003:000049d4       ?g_strheap@ATL@@3VCWin32Heap@1@A 0041b9d4     atls:atlstr.obj
+ 0003:000049e0       ?_AtlBaseModule@ATL@@3VCAtlBaseModule@1@A 0041b9e0     atls:atlbase.obj
+ 0003:00004d5c       __dowildcard               0041bd5c     MSVCRT:wildcard.obj
+ 0003:00004d60       __newmode                  0041bd60     MSVCRT:_newmode.obj
+ 0003:00004d64       __commode                  0041bd64     MSVCRT:xncommod.obj
+ 0003:00004d68       __fmode                    0041bd68     MSVCRT:xtxtmode.obj
+ 0003:00004d70       ?ProcessListWnd@@3PAUHWND__@@A 0041bd70     HackServer.obj
+ 0003:00004d74       ?ScreenWnd@@3PAUHWND__@@A  0041bd74     HackServer.obj
+ 0003:00004d78       ?hWnd@@3PAUHWND__@@A       0041bd78     HackServer.obj
+ 0003:00004d7c       ?hInst@@3PAUHINSTANCE__@@A 0041bd7c     HackServer.obj
+ 0003:00004d80       ?szChildClass@@3PADA       0041bd80     HackServer.obj
+ 0003:00004de4       ___@@_PchSym_@00@UnfUzmgrszxphUtznvhsrvowLeCLQLhxivvmLxzkgfivUhlfixvLwvLglwlUCACBRBARBGUhvieviUtznvhsrvoweCOHPhvieviUszxphvieviUivovzhvUhgwzucOlyq@ 0041bde4     stdafx.obj
+ 0003:00004de8       ?szChildTitle@@3PADA       0041bde8     HackServer.obj
+ 0003:00004e50       ?szWindowClass@@3PADA      0041be50     HackServer.obj
+ 0003:00004eb8       ?szTitle@@3PADA            0041beb8     HackServer.obj
+ 0003:00004f1c       ?_httpErrorCode@@3HA       0041bf1c     FileDownloadHTTP.obj
+ 0003:00004f48       ?gClientCount@@3HA         0041bf48     Util.obj
+ 0003:00004f50       ?gClientManager@@3PAVCClientManager@@A 0041bf50     ClientManager.obj
+ 0003:00097710       ?gHidManager@@3VCHidManager@@A 004ae710     HidManager.obj
+ 0003:00097734       ?gProcessManager@@3VCProcessManager@@A 004ae734     ProcessManager.obj
+ 0003:00097764       ?gScreenShot@@3VCScreenShot@@A 004ae764     ScreenShot.obj
+ 0003:00097790       ?gScreenShow@@3VCScreenShow@@A 004ae790     ScreenShow.obj
+ 0003:000977f0       ?gServerDisplayer@@3VCServerDisplayer@@A 004ae7f0     ServerDisplayer.obj
+ 0003:000983d0       ?gSocketManager@@3VCSocketManager@@A 004af3d0     SocketManager.obj
+ 0003:00098474       ?m_bInitFailed@CAtlBaseModule@ATL@@2_NA 004af474     stdafx.obj
+ 0003:00198488       ___sse2_available          005af488     <common>
+ 0003:0019848c       ___native_startup_state    005af48c     <common>
+ 0003:00198490       ___native_startup_lock     005af490     <common>
+ 0003:00198494       __NoHeapEnableTerminationOnCorruption 005af494     <common>
+ 0003:00198498       ___dyn_tls_init_callback   005af498     <common>
+ 0003:0019849c       ___onexitend               005af49c     <common>
+ 0003:001984a0       ___onexitbegin             005af4a0     <common>
+
+ entry point at        0001:0000ed74
+
+ Static symbols
+
+ 0001:0000025b       __catch$?SetList@CBlackList@@QAEXPAD@Z$0 0040125b f    CIL library: CIL module
+ 0001:00000687       __catch$?reserve@?$vector@UBLACKLIST_IPADDR_INFO@@V?$allocator@UBLACKLIST_IPADDR_INFO@@@std@@@std@@QAEXI@Z$0 00401687 f i  CIL library: CIL module
+ 0001:00000771       __catch$?reserve@?$vector@UBLACKLIST_HARDID_INFO@@V?$allocator@UBLACKLIST_HARDID_INFO@@@std@@@std@@QAEXI@Z$0 00401771 f i  CIL library: CIL module
+ 0001:00004001       __catch$?reserve@?$vector@UHARDWARE_ID_INFO@@V?$allocator@UHARDWARE_ID_INFO@@@std@@@std@@QAEXI@Z$0 00405001 f i  CIL library: CIL module
+ 0001:000049b3       __catch$?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXII@Z$0 004059b3 f i  CIL library: CIL module
+ 0001:00004a37       __catch$?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXII@Z$1 00405a37 f i  CIL library: CIL module
+ 0001:0000552a       __catch$??$_Buynode@U?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@std@@QAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@1@$$QAU?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@1@@Z$0 0040652a f i  CIL library: CIL module
+ 0001:0000552a       __catch$??$_Buynode@U?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@std@@QAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@1@$$QAU?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@1@@Z$0 0040652a f i  CIL library: CIL module
+ 0001:0000786f       __catch$?DumpList@CReadFiles@@QAEXPAD@Z$0 0040886f f    CIL library: CIL module
+ 0001:000079e4       __catch$?ChecksumList@CReadFiles@@QAEXPAD@Z$0 004089e4 f    CIL library: CIL module
+ 0001:00007bff       __catch$?InternalList@CReadFiles@@QAEXPAD@Z$0 00408bff f    CIL library: CIL module
+ 0001:00007d52       __catch$?WindowList@CReadFiles@@QAEXPAD@Z$0 00408d52 f    CIL library: CIL module
+ 0001:00008471       __catch$?reserve@?$vector@UDUMP_LIST_INFO@@V?$allocator@UDUMP_LIST_INFO@@@std@@@std@@QAEXI@Z$0 00409471 f i  CIL library: CIL module
+ 0001:00008565       __catch$?reserve@?$vector@UCSUM_LIST_INFO@@V?$allocator@UCSUM_LIST_INFO@@@std@@@std@@QAEXI@Z$0 00409565 f i  CIL library: CIL module
+ 0001:00008655       __catch$?reserve@?$vector@UITRN_LIST_INFO@@V?$allocator@UITRN_LIST_INFO@@@std@@@std@@QAEXI@Z$0 00409655 f i  CIL library: CIL module
+ 0001:00008747       __catch$?reserve@?$vector@UWNDW_LIST_INFO@@V?$allocator@UWNDW_LIST_INFO@@@std@@@std@@QAEXI@Z$0 00409747 f i  CIL library: CIL module
+ 0001:0000ea96       _pre_cpp_init              0040fa96 f   MSVCRT:crtexew.obj
+ 0001:0000eae1       ___tmainCRTStartup         0040fae1 f   MSVCRT:crtexew.obj
+ 0001:0000ecba       _pre_c_init                0040fcba f   MSVCRT:crtexew.obj
+ 0001:0000f350       __ehhandler$?reserve@?$vector@UWNDW_LIST_INFO@@V?$allocator@UWNDW_LIST_INFO@@@std@@@std@@QAEXI@Z 00410350 f    CIL library: CIL module
+ 0001:0000f370       __ehhandler$?reserve@?$vector@UITRN_LIST_INFO@@V?$allocator@UITRN_LIST_INFO@@@std@@@std@@QAEXI@Z 00410370 f    CIL library: CIL module
+ 0001:0000f390       __ehhandler$?reserve@?$vector@UCSUM_LIST_INFO@@V?$allocator@UCSUM_LIST_INFO@@@std@@@std@@QAEXI@Z 00410390 f    CIL library: CIL module
+ 0001:0000f3b0       __ehhandler$?reserve@?$vector@UDUMP_LIST_INFO@@V?$allocator@UDUMP_LIST_INFO@@@std@@@std@@QAEXI@Z 004103b0 f    CIL library: CIL module
+ 0001:0000f3d0       __ehhandler$?reserve@?$vector@UHARDWARE_ID_INFO@@V?$allocator@UHARDWARE_ID_INFO@@@std@@@std@@QAEXI@Z 004103d0 f    CIL library: CIL module
+ 0001:0000f3f0       __ehhandler$?reserve@?$vector@UBLACKLIST_HARDID_INFO@@V?$allocator@UBLACKLIST_HARDID_INFO@@@std@@@std@@QAEXI@Z 004103f0 f    CIL library: CIL module
+ 0001:0000f410       __ehhandler$?reserve@?$vector@UBLACKLIST_IPADDR_INFO@@V?$allocator@UBLACKLIST_IPADDR_INFO@@@std@@@std@@QAEXI@Z 00410410 f    CIL library: CIL module
+ 0001:0000f430       __unwindfunclet$?ClearQueue@CQueue@@QAEXXZ$3 00410430 f    CIL library: CIL module
+ 0001:0000f439       __unwindfunclet$?ClearQueue@CQueue@@QAEXXZ$0 00410439 f    CIL library: CIL module
+ 0001:0000f441       __ehhandler$?ClearQueue@CQueue@@QAEXXZ 00410441 f    CIL library: CIL module
+ 0001:0000f460       __unwindfunclet$??1CQueue@@UAE@XZ$0 00410460 f    CIL library: CIL module
+ 0001:0000f46b       __unwindfunclet$??1CQueue@@UAE@XZ$1 0041046b f    CIL library: CIL module
+ 0001:0000f476       __ehhandler$??1CQueue@@UAE@XZ 00410476 f    CIL library: CIL module
+ 0001:0000f4a0       __unwindfunclet$??_GCQueue@@UAEPAXI@Z$0 004104a0 f    CIL library: CIL module
+ 0001:0000f4ab       __unwindfunclet$??_GCQueue@@UAEPAXI@Z$1 004104ab f    CIL library: CIL module
+ 0001:0000f4b6       __ehhandler$??_GCQueue@@UAEPAXI@Z 004104b6 f    CIL library: CIL module
+ 0001:0000f4e0       __ehhandler$?SetList@CBlackList@@QAEXPAD@Z 004104e0 f    CIL library: CIL module
+ 0001:0000f510       __unwindfunclet$??1CSocketManager@@UAE@XZ$0 00410510 f    CIL library: CIL module
+ 0001:0000f51b       __unwindfunclet$??1CSocketManager@@UAE@XZ$1 0041051b f    CIL library: CIL module
+ 0001:0000f526       __unwindfunclet$??1CSocketManager@@UAE@XZ$2 00410526 f    CIL library: CIL module
+ 0001:0000f531       __unwindfunclet$??1CSocketManager@@UAE@XZ$3 00410531 f    CIL library: CIL module
+ 0001:0000f53c       __ehhandler$??1CSocketManager@@UAE@XZ 0041053c f    CIL library: CIL module
+ 0001:0000f560       __unwindfunclet$??0CSocketManager@@QAE@XZ$2 00410560 f    CIL library: CIL module
+ 0001:0000f56b       __unwindfunclet$??0CSocketManager@@QAE@XZ$6 0041056b f    CIL library: CIL module
+ 0001:0000f574       __ehhandler$??0CSocketManager@@QAE@XZ 00410574 f    CIL library: CIL module
+ 0001:0000f590       __ehhandler$?WindowList@CReadFiles@@QAEXPAD@Z 00410590 f    CIL library: CIL module
+ 0001:0000f5c0       __ehhandler$?InternalList@CReadFiles@@QAEXPAD@Z 004105c0 f    CIL library: CIL module
+ 0001:0000f5f0       __ehhandler$?ChecksumList@CReadFiles@@QAEXPAD@Z 004105f0 f    CIL library: CIL module
+ 0001:0000f620       __ehhandler$?DumpList@CReadFiles@@QAEXPAD@Z 00410620 f    CIL library: CIL module
+ 0001:0000f650       __unwindfunclet$??0CProcessManager@@QAE@XZ$0 00410650 f    CIL library: CIL module
+ 0001:0000f65b       __ehhandler$??0CProcessManager@@QAE@XZ 0041065b f    CIL library: CIL module
+ 0001:0000f680       __ehhandler$?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXII@Z 00410680 f    CIL library: CIL module
+ 0001:0000f6a0       __unwindfunclet$??0CHidManager@@QAE@XZ$0 004106a0 f    CIL library: CIL module
+ 0001:0000f6ab       __ehhandler$??0CHidManager@@QAE@XZ 004106ab f    CIL library: CIL module
+ 0001:0000f6d0       __unwindfunclet$??_GCProcessManager@@UAEPAXI@Z$0 004106d0 f    CIL library: CIL module
+ 0001:0000f6db       __unwindfunclet$??_GCProcessManager@@UAEPAXI@Z$3 004106db f    CIL library: CIL module
+ 0001:0000f6e3       __ehhandler$??_GCProcessManager@@UAEPAXI@Z 004106e3 f    CIL library: CIL module
+ 0001:0000f700       __unwindfunclet$??_GCIpManager@@UAEPAXI@Z$2 00410700 f    CIL library: CIL module
+ 0001:0000f708       __ehhandler$??_GCIpManager@@UAEPAXI@Z 00410708 f    CIL library: CIL module
+ 0001:0000f730       __unwindfunclet$??_GCHidManager@@UAEPAXI@Z$0 00410730 f    CIL library: CIL module
+ 0001:0000f73b       __unwindfunclet$??_GCHidManager@@UAEPAXI@Z$3 0041073b f    CIL library: CIL module
+ 0001:0000f743       __ehhandler$??_GCHidManager@@UAEPAXI@Z 00410743 f    CIL library: CIL module
+ 0001:0000f760       __unwindfunclet$?DrawScreen@CScreenShow@@SAXPAUHWND__@@PAUHDC__@@@Z$0 00410760 f    CIL library: CIL module
+ 0001:0000f76b       __ehhandler$?DrawScreen@CScreenShow@@SAXPAUHWND__@@PAUHDC__@@@Z 0041076b f    CIL library: CIL module
+ 0001:0000f7a0       __unwindfunclet$?InsertHardwareId2@CHidManager@@QAEXQAD@Z$0 004107a0 f    CIL library: CIL module
+ 0001:0000f7a8       __unwindfunclet$?InsertHardwareId2@CHidManager@@QAEXQAD@Z$1 004107a8 f    CIL library: CIL module
+ 0001:0000f7b0       __unwindfunclet$?InsertHardwareId2@CHidManager@@QAEXQAD@Z$2 004107b0 f    CIL library: CIL module
+ 0001:0000f7bb       __ehhandler$?InsertHardwareId2@CHidManager@@QAEXQAD@Z 004107bb f    CIL library: CIL module
+ 0001:0000f7f0       __unwindfunclet$??$_Buynode@U?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@std@@QAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@1@$$QAU?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@1@@Z$2 004107f0 f    CIL library: CIL module
+ 0001:0000f7f0       __unwindfunclet$??$_Buynode@U?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@std@@QAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@1@$$QAU?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@1@@Z$2 004107f0 f    CIL library: CIL module
+ 0001:0000f7f5       __ehhandler$??$_Buynode@U?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@std@@QAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@std@@@2@$0A@@std@@@1@$$QAU?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UIP_ADDRESS_INFO@@@1@@Z 004107f5 f    CIL library: CIL module
+ 0001:0000f7f5       __ehhandler$??$_Buynode@U?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@std@@QAEPAU_Node@?$_Tree_nod@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@std@@@2@$0A@@std@@@1@$$QAU?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UHARDWARE_ID_INFO2@@@1@@Z 004107f5 f    CIL library: CIL module
+ 0001:0000f810       __unwindfunclet$?RemoveIpAddress@CIpManager@@QAEXPAD@Z$0 00410810 f    CIL library: CIL module
+ 0001:0000f810       __unwindfunclet$?ClearHardwareId2@CHidManager@@QAEXQAD@Z$0 00410810 f    CIL library: CIL module
+ 0001:0000f810       __unwindfunclet$?CheckHardwareId2@CHidManager@@QAE_NQAD@Z$0 00410810 f    CIL library: CIL module
+ 0001:0000f810       __unwindfunclet$?CheckIpAddress@CIpManager@@QAE_NPADH@Z$0 00410810 f    CIL library: CIL module
+ 0001:0000f818       __ehhandler$?RemoveIpAddress@CIpManager@@QAEXPAD@Z 00410818 f    CIL library: CIL module
+ 0001:0000f818       __ehhandler$?CheckHardwareId2@CHidManager@@QAE_NQAD@Z 00410818 f    CIL library: CIL module
+ 0001:0000f818       __ehhandler$?CheckIpAddress@CIpManager@@QAE_NPADH@Z 00410818 f    CIL library: CIL module
+ 0001:0000f818       __ehhandler$?ClearHardwareId2@CHidManager@@QAEXQAD@Z 00410818 f    CIL library: CIL module
+ 0001:0000f840       __unwindfunclet$?InsertIpAddress@CIpManager@@QAEXPAD@Z$0 00410840 f    CIL library: CIL module
+ 0001:0000f848       __unwindfunclet$?InsertIpAddress@CIpManager@@QAEXPAD@Z$1 00410848 f    CIL library: CIL module
+ 0001:0000f850       __unwindfunclet$?InsertIpAddress@CIpManager@@QAEXPAD@Z$2 00410850 f    CIL library: CIL module
+ 0001:0000f85b       __ehhandler$?InsertIpAddress@CIpManager@@QAEXPAD@Z 0041085b f    CIL library: CIL module
+ 0001:0000f890       __unwindfunclet$?ServerAcceptThread@CSocketManager@@SGKPAV1@@Z$0 00410890 f    CIL library: CIL module
+ 0001:0000f898       __ehhandler$?ServerAcceptThread@CSocketManager@@SGKPAV1@@Z 00410898 f    CIL library: CIL module
+ 0001:0000f8c0       __unwindfunclet$?FindCodecForExtension@CImage@ATL@@CA?AU_GUID@@PBDPBVImageCodecInfo@Gdiplus@@I@Z$0 004108c0 f    CIL library: CIL module
+ 0001:0000f8cb       __unwindfunclet$?FindCodecForExtension@CImage@ATL@@CA?AU_GUID@@PBDPBVImageCodecInfo@Gdiplus@@I@Z$4 004108cb f    CIL library: CIL module
+ 0001:0000f8d6       __unwindfunclet$?FindCodecForExtension@CImage@ATL@@CA?AU_GUID@@PBDPBVImageCodecInfo@Gdiplus@@I@Z$1 004108d6 f    CIL library: CIL module
+ 0001:0000f8e1       __unwindfunclet$?FindCodecForExtension@CImage@ATL@@CA?AU_GUID@@PBDPBVImageCodecInfo@Gdiplus@@I@Z$2 004108e1 f    CIL library: CIL module
+ 0001:0000f8ec       __unwindfunclet$?FindCodecForExtension@CImage@ATL@@CA?AU_GUID@@PBDPBVImageCodecInfo@Gdiplus@@I@Z$5 004108ec f    CIL library: CIL module
+ 0001:0000f8f7       __unwindfunclet$?FindCodecForExtension@CImage@ATL@@CA?AU_GUID@@PBDPBVImageCodecInfo@Gdiplus@@I@Z$3 004108f7 f    CIL library: CIL module
+ 0001:0000f902       __ehhandler$?FindCodecForExtension@CImage@ATL@@CA?AU_GUID@@PBDPBVImageCodecInfo@Gdiplus@@I@Z 00410902 f    CIL library: CIL module
+ 0001:0000f930       __unwindfunclet$?SaveScreen@CScreenShot@@QAEXPAD0H@Z$0 00410930 f    CIL library: CIL module
+ 0001:0000f93b       __ehhandler$?SaveScreen@CScreenShot@@QAEXPAD0H@Z 0041093b f    CIL library: CIL module
+ 0001:0000f970       __unwindfunclet$??__FgProcessManager@@YAXXZ$0 00410970 f    CIL library: CIL module
+ 0001:0000f97a       __unwindfunclet$??__FgProcessManager@@YAXXZ$3 0041097a f    CIL library: CIL module
+ 0001:0000f982       __ehhandler$??__FgProcessManager@@YAXXZ 00410982 f    CIL library: CIL module
+ 0001:0000f9a0       __unwindfunclet$??__FgIpManager@@YAXXZ$2 004109a0 f    CIL library: CIL module
+ 0001:0000f9a8       __ehhandler$??__FgIpManager@@YAXXZ 004109a8 f    CIL library: CIL module
+ 0001:0000f9d0       __unwindfunclet$??__FgHidManager@@YAXXZ$0 004109d0 f    CIL library: CIL module
+ 0001:0000f9da       __unwindfunclet$??__FgHidManager@@YAXXZ$3 004109da f    CIL library: CIL module
+ 0001:0000f9e2       __ehhandler$??__FgHidManager@@YAXXZ 004109e2 f    CIL library: CIL module
+ 0001:0000fa00       ??__EgAuthenticate@@YAXXZ  00410a00 f    CIL library: CIL module
+ 0001:0000fa30       ??__EgBlackList@@YAXXZ     00410a30 f    CIL library: CIL module
+ 0001:0000fa40       ??__EgClientManager@@YAXXZ 00410a40 f    CIL library: CIL module
+ 0001:0000fa70       ??__EgHidManager@@YAXXZ    00410a70 f    CIL library: CIL module
+ 0001:0000fa90       ??__EgIpManager@@YAXXZ     00410a90 f    CIL library: CIL module
+ 0001:0000fb10       ??__EgLog@@YAXXZ           00410b10 f    CIL library: CIL module
+ 0001:0000fb20       ??__EgProcessManager@@YAXXZ 00410b20 f    CIL library: CIL module
+ 0001:0000fb40       ??__EgReadFiles@@YAXXZ     00410b40 f    CIL library: CIL module
+ 0001:0000fb50       ??__EgScreenShot@@YAXXZ    00410b50 f    CIL library: CIL module
+ 0001:0000fb70       ??__EgScreenShow@@YAXXZ    00410b70 f    CIL library: CIL module
+ 0001:0000fb90       ??__EgServerDisplayer@@YAXXZ 00410b90 f    CIL library: CIL module
+ 0001:0000fbb0       ??__EgServerInfo@@YAXXZ    00410bb0 f    CIL library: CIL module
+ 0001:0000fbc0       ??__EgSocketManager@@YAXXZ 00410bc0 f    CIL library: CIL module
+ 0001:0000fbd1       ??__E?s_initGDIPlus@CImage@ATL@@0VCInitGDIPlus@12@A@@YAXXZ 00410bd1 f   atls:atlimage2.obj
+ 0001:0000fbe7       ??__E?s_cache@CImage@ATL@@0VCDCCache@12@A@@YAXXZ 00410be7 f   atls:atlimage.obj
+ 0001:0000fc02       ??__Eg_strheap@ATL@@YAXXZ  00410c02 f   atls:atlstr.obj
+ 0001:0000fc2a       ??__Eg_strmgr@ATL@@YAXXZ   00410c2a f   atls:atlstr.obj
+ 0001:0000fc36       ??__E_AtlBaseModule@ATL@@YAXXZ 00410c36 f   atls:atlbase.obj
+ 0001:0000fc50       ??__FgAuthenticate@@YAXXZ  00410c50 f    CIL library: CIL module
+ 0001:0000fc90       ??__FgBlackList@@YAXXZ     00410c90 f    CIL library: CIL module
+ 0001:0000fcf0       ??__FgClientManager@@YAXXZ 00410cf0 f    CIL library: CIL module
+ 0001:0000fd10       ??__FgHidManager@@YAXXZ    00410d10 f    CIL library: CIL module
+ 0001:0000fdb0       ??__FgIpManager@@YAXXZ     00410db0 f    CIL library: CIL module
+ 0001:0000fe30       ??__FgLog@@YAXXZ           00410e30 f    CIL library: CIL module
+ 0001:0000fe40       ??__FgProcessManager@@YAXXZ 00410e40 f    CIL library: CIL module
+ 0001:0000fed0       ??__FgReadFiles@@YAXXZ     00410ed0 f    CIL library: CIL module
+ 0001:0000fee0       ??__FgScreenShot@@YAXXZ    00410ee0 f    CIL library: CIL module
+ 0001:0000ff30       ??__FgScreenShow@@YAXXZ    00410f30 f    CIL library: CIL module
+ 0001:0000ff90       ??__FgServerDisplayer@@YAXXZ 00410f90 f    CIL library: CIL module
+ 0001:0000ffd0       ??__FgServerInfo@@YAXXZ    00410fd0 f    CIL library: CIL module
+ 0001:0000ffe0       ??__FgSocketManager@@YAXXZ 00410fe0 f    CIL library: CIL module
+ 0001:0000ffea       ??__F?s_initGDIPlus@CImage@ATL@@0VCInitGDIPlus@12@A@@YAXXZ 00410fea f   atls:atlimage2.obj
+ 0001:00010000       ??__F?s_cache@CImage@ATL@@0VCDCCache@12@A@@YAXXZ 00411000 f   atls:atlimage.obj
+ 0001:0001000a       ??__Fg_strheap@ATL@@YAXXZ  0041100a f   atls:atlstr.obj
+ 0001:00010014       ??__Fg_strmgr@ATL@@YAXXZ   00411014 f   atls:atlstr.obj
+ 0001:0001001f       ??__F_AtlBaseModule@ATL@@YAXXZ 0041101f f   atls:atlbase.obj

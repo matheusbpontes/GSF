@@ -1,0 +1,45 @@
+﻿Build started 7/13/2022 12:37:48 AM.
+     1>Project "C:\Users\Hannah\Desktop\EA-SHIELD ANTIHACK\Source Code\Tool\GetHardwareId\GetHardwareId\GetHardwareId.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\GetHardwareId.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\GetHardwareId.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\GetHardwareId.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\GetHardwareId.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GetHardwareId.cpp
+         GetHardwareId.cpp
+     1>c:\users\hannah\desktop\ea-shield antihack\source code\tool\gethardwareid\gethardwareid\gethardwareid.cpp(5): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\hannah\desktop\ea-shield antihack\source code\tool\gethardwareid\gethardwareid\gethardwareid.cpp(9): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\hannah\desktop\ea-shield antihack\source code\tool\gethardwareid\gethardwareid\gethardwareid.cpp(27): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\hannah\desktop\ea-shield antihack\source code\tool\gethardwareid\gethardwareid\gethardwareid.cpp(47): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\hannah\desktop\ea-shield antihack\source code\tool\gethardwareid\gethardwareid\gethardwareid.cpp(20): warning C4101: 'hwProfileInfo' : unreferenced local variable
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\GetHardwareId.res" GetHardwareId.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\GetHardwareId.exe.embed.manifest.res" Debug\GetHardwareId_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Hannah\Desktop\EA-SHIELD ANTIHACK\Source Code\Tool\GetHardwareId\Debug\GetHardwareId.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\GetHardwareId.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Hannah\Desktop\EA-SHIELD ANTIHACK\Source Code\Tool\GetHardwareId\Debug\GetHardwareId.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Hannah\Desktop\EA-SHIELD ANTIHACK\Source Code\Tool\GetHardwareId\Debug\GetHardwareId.lib" /MACHINE:X86 Debug\GetHardwareId.res
+         Debug\GetHardwareId.exe.embed.manifest.res
+         Debug\GetHardwareId.obj
+         Debug\stdafx.obj
+       Manifest:
+         Deleting file "Debug\GetHardwareId.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\GetHardwareId.exe.embed.manifest" /manifest Debug\GetHardwareId.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\GetHardwareId.exe.embed.manifest.res" Debug\GetHardwareId_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Hannah\Desktop\EA-SHIELD ANTIHACK\Source Code\Tool\GetHardwareId\Debug\GetHardwareId.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\GetHardwareId.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Hannah\Desktop\EA-SHIELD ANTIHACK\Source Code\Tool\GetHardwareId\Debug\GetHardwareId.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Hannah\Desktop\EA-SHIELD ANTIHACK\Source Code\Tool\GetHardwareId\Debug\GetHardwareId.lib" /MACHINE:X86 Debug\GetHardwareId.res
+         Debug\GetHardwareId.exe.embed.manifest.res
+         Debug\GetHardwareId.obj
+         Debug\stdafx.obj
+         GetHardwareId.vcxproj -> C:\Users\Hannah\Desktop\EA-SHIELD ANTIHACK\Source Code\Tool\GetHardwareId\Debug\GetHardwareId.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\GetHardwareId.unsuccessfulbuild".
+         Touching "Debug\GetHardwareId.lastbuildstate".
+     1>Done Building Project "C:\Users\Hannah\Desktop\EA-SHIELD ANTIHACK\Source Code\Tool\GetHardwareId\GetHardwareId\GetHardwareId.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.84
